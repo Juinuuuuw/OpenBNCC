@@ -1,0 +1,86 @@
+{
+  "metodologias": [
+    {
+      "descricao": "Roda de leitura colaborativa: cada aluno lê um trecho e compartilha impressões, promovendo análise coletiva.",
+      "tags": ["leitura", "interpretação", "oralidade", "colaboração"]
+    },
+    {
+      "descricao": "Oficina de produção textual com foco em planejamento, rascunho, revisão e edição final.",
+      "tags": ["escrita", "produção textual", "revisão", "planejamento"]
+    },
+    {
+      "descricao": "Jogo de associação de palavras: cartas com substantivos, adjetivos e verbos para formar frases criativas.",
+      "tags": ["morfologia", "classes gramaticais", "vocabulário", "jogo"]
+    },
+    {
+      "descricao": "Análise de manchetes e notícias: identificar fato, opinião e elementos da narrativa jornalística.",
+      "tags": ["leitura", "notícia", "fato/opinião", "argumentação"]
+    },
+    {
+      "descricao": "Corrida ortográfica: competição em equipes para corrigir palavras com erros comuns (uso de dicionário).",
+      "tags": ["ortografia", "jogo", "dicionário", "competição"]
+    },
+    {
+      "descricao": "Produção de um jornal mural: reportagens, entrevistas e anúncios publicitários criados pelos alunos.",
+      "tags": ["escrita", "gêneros textuais", "jornal", "criatividade"]
+    },
+    {
+      "descricao": "Teatro de fantoches para recontar histórias lidas, explorando entonação e expressão corporal.",
+      "tags": ["oralidade", "contação de histórias", "teatro", "interpretação"]
+    },
+    {
+      "descricao": "Caça aos erros gramaticais: frases com problemas de concordância, regência e pontuação para correção coletiva.",
+      "tags": ["sintaxe", "concordância", "pontuação", "análise linguística"]
+    },
+    {
+      "descricao": "Varal de poemas: cada aluno cria um poema visual e o expõe na sala, trabalhando recursos gráficos e metáforas.",
+      "tags": ["literatura", "poema", "figuras de linguagem", "criatividade"]
+    },
+    {
+      "descricao": "Debate regrado sobre tema polêmico, com pesquisa prévia e argumentação estruturada.",
+      "tags": ["oralidade", "argumentação", "debate", "pesquisa"]
+    },
+    {
+      "descricao": "Criação de vídeos curtos (vlogs) resenhando livros, filmes ou games, explorando edição digital.",
+      "tags": ["tecnologia", "resenha", "produção de texto", "oralidade", "mídia digital"]
+    },
+    {
+      "descricao": "Ditado interativo: o professor dita frases e os alunos escrevem, depois discutem a grafia correta.",
+      "tags": ["ortografia", "escuta", "escrita", "concentração"]
+    },
+    {
+      "descricao": "Análise de propagandas: identificar estratégias de persuasão, público-alvo e recursos visuais.",
+      "tags": ["leitura", "publicidade", "persuasão", "multimídia"]
+    }
+  ],
+  "avaliacoes": [
+    {
+      "descricao": "Rubrica de participação oral: clareza, argumentação, respeito à vez do colega.",
+      "tags": ["oralidade", "argumentação", "participação"]
+    },
+    {
+      "descricao": "Correção de produção textual considerando: ortografia, concordância, coesão e criatividade.",
+      "tags": ["escrita", "ortografia", "concordância", "coesão"]
+    },
+    {
+      "descricao": "Autoavaliação: o aluno reflete sobre seu progresso na leitura e sugere metas.",
+      "tags": ["leitura", "autoavaliação", "metacognição"]
+    },
+    {
+      "descricao": "Observação do desempenho em atividades colaborativas, com ficha de acompanhamento.",
+      "tags": ["colaboração", "observação", "trabalho em grupo"]
+    },
+    {
+      "descricao": "Teste de múltipla escolha sobre regras gramaticais e interpretação de texto.",
+      "tags": ["gramática", "leitura", "prova"]
+    },
+    {
+      "descricao": "Seminário: apresentação de pesquisa sobre um tema, avaliando domínio do conteúdo e uso de recursos.",
+      "tags": ["oralidade", "pesquisa", "apresentação"]
+    },
+    {
+      "descricao": "Portfólio de produções textuais com autoavaliação ao final do bimestre.",
+      "tags": ["escrita", "autoavaliação", "portfólio", "progressão"]
+    }
+  ]
+}

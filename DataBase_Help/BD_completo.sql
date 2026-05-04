@@ -1,0 +1,1993 @@
+CREATE TABLE habilidades (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo TEXT UNIQUE,
+    etapa TEXT,
+    ano INTEGER,
+    componente TEXT,
+    unidade_tematica TEXT,
+    objeto_conhecimento TEXT,
+    habilidade TEXT
+);
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - TODOS OS CAMPOS (1º AO 5º ANO)
+-- ============================================================
+
+-- 1º AO 5º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF15LP01', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Reconstrução das condições de produção e recepção de textos', 'Identificar a função social de textos que circulam em campos da vida social dos quais participa cotidianamente (a casa, a rua, a comunidade, a escola) e nas mídias impressa, de massa e digital, reconhecendo para que foram produzidos, onde circulam, quem os produziu e a quem se destinam.'),
+('EF15LP02', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Estabelecer expectativas em relação ao texto que vai ler (pressuposições antecipadoras dos sentidos, da forma e da função social do texto), apoiando-se em seus conhecimentos prévios sobre as condições de produção e recepção desse texto, o gênero, o suporte e o universo temático, bem como sobre saliências textuais, recursos gráficos, imagens, dados da própria obra (índice, prefácio etc.), confirmando antecipações e inferências realizadas antes e durante a leitura de textos, checando a adequação das hipóteses realizadas.'),
+('EF15LP03', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Localizar informações explícitas em textos.'),
+('EF15LP04', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Identificar o efeito de sentido produzido pelo uso de recursos expressivos gráfico-visuais em textos multissemióticos.'),
+('EF15LP05', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Planejamento de texto', 'Planejar, com a ajuda do professor, o texto que será produzido, considerando a situação comunicativa, os interlocutores (quem escreve/para quem escreve); a finalidade ou o propósito (escrever para quê); a circulação (onde o texto vai circular); o suporte (qual é o portador do texto); a linguagem, organização e forma do texto e seu tema, pesquisando em meios impressos ou digitais, sempre que for preciso, informações necessárias à produção do texto, organizando em tópicos os dados e as fontes pesquisadas.'),
+('EF15LP06', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Revisão de textos', 'Reler e revisar o texto produzido com a ajuda do professor e a colaboração dos colegas, para corrigi-lo e aprimorá-lo, fazendo cortes, acréscimos, reformulações, correções de ortografia e pontuação.'),
+('EF15LP07', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Edição de textos', 'Editar a versão final do texto, em colaboração com os colegas e com a ajuda do professor, ilustrando, quando for o caso, em suporte adequado, manual ou digital.'),
+('EF15LP08', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Utilização de tecnologia digital', 'Utilizar software, inclusive programas de edição de texto, para editar e publicar os textos produzidos, explorando os recursos multissemióticos disponíveis.'),
+('EF15LP09', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Oralidade pública/Intercâmbio conversacional em sala de aula', 'Expressar-se em situações de intercâmbio oral com clareza, preocupando-se em ser compreendido pelo interlocutor e usando a palavra com tom de voz audível, boa articulação e ritmo adequado.'),
+('EF15LP10', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Escuta atenta', 'Escutar, com atenção, falas de professores e colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.'),
+('EF15LP11', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Características da conversação espontânea', 'Reconhecer características da conversação espontânea presencial, respeitando os turnos de fala, selecionando e utilizando, durante a conversação, formas de tratamento adequadas, de acordo com a situação e a posição do interlocutor.'),
+('EF15LP12', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Aspectos não linguísticos (paralinguísticos) no ato da fala', 'Atribuir significado a aspectos não linguísticos (paralinguísticos) observados na fala, como direção do olhar, riso, gestos, movimentos da cabeça (de concordância ou discordância), expressão corporal, tom de voz.'),
+('EF15LP13', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Relato oral/Registro formal e informal', 'Identificar finalidades da interação oral em diferentes contextos comunicativos (solicitar informações, apresentar opiniões, informar, relatar experiências etc.).');
+
+-- 1º AO 5º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF15LP14', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Leitura de imagens em narrativas visuais', 'Construir o sentido de histórias em quadrinhos e tirinhas, relacionando imagens e palavras e interpretando recursos gráficos (tipos de balões, de letras, onomatopeias).');
+
+-- 1º AO 5º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF15LP15', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Formação do leitor literário', 'Reconhecer que os textos literários fazem parte do mundo do imaginário e apresentam uma dimensão lúdica, de encantamento, valorizando-os, em sua diversidade cultural, como patrimônio artístico da humanidade.'),
+('EF15LP16', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Leitura colaborativa e autônoma', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor e, mais tarde, de maneira autônoma, textos narrativos de maior porte como contos (populares, de fadas, acumulativos, de assombração etc.) e crônicas.'),
+('EF15LP17', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Apreciação estética/Estilo', 'Apreciar poemas visuais e concretos, observando efeitos de sentido criados pelo formato do texto na página, distribuição e diagramação das letras, pelas ilustrações e por outros efeitos visuais.'),
+('EF15LP18', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Formação do leitor literário/Leitura multissemiótica', 'Relacionar texto com ilustrações e outros recursos gráficos.'),
+('EF15LP19', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Contagem de histórias', 'Recontar oralmente, com e sem apoio de imagem, textos literários lidos pelo professor.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - 1º E 2º ANOS
+-- ============================================================
+
+-- 1º E 2º ANOS - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF12LP01', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Decodificação/Fluência de leitura', 'Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.'),
+('EF12LP02', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Formação de leitor', 'Buscar, selecionar e ler, com a mediação do professor (leitura compartilhada), textos que circulam em meios impressos ou digitais, de acordo com as necessidades e interesses.'),
+('EF12LP03', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Construção do sistema alfabético/ Convenções da escrita', 'Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação.');
+
+-- 1º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF01LP01', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Protocolos de leitura', 'Reconhecer que textos são lidos e escritos da esquerda para a direita e de cima para baixo da página.'),
+('EF01LP02', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Correspondência fonema-grafema', 'Escrever, espontaneamente ou por ditado, palavras e frases de forma alfabética - usando letras/grafemas que representem fonemas.'),
+('EF01LP03', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Construção do sistema alfabético', 'Observar escritas convencionais, comparando-as às suas produções escritas, percebendo semelhanças e diferenças.'),
+('EF01LP04', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento do alfabeto do português do Brasil', 'Distinguir as letras do alfabeto de outros sinais gráficos.'),
+('EF01LP05', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético', 'Reconhecer o sistema de escrita alfabética como representação dos sons da fala.'),
+('EF01LP06', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético', 'Segmentar oralmente palavras em sílabas.'),
+('EF01LP07', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético', 'Identificar fonemas e sua representação por letras.'),
+('EF01LP08', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita.'),
+('EF01LP09', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas iniciais.'),
+('EF01LP10', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento do alfabeto do português do Brasil', 'Nomear as letras do alfabeto e recitá-lo na ordem das letras.'),
+('EF01LP11', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento das diversas grafias do alfabeto/ Acentuação', 'Conhecer, diferenciar e relacionar letras em formato imprensa e cursiva, maiúsculas e minúsculas.'),
+('EF01LP12', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Segmentação de palavras/Classificação de palavras por número de sílabas', 'Reconhecer a separação das palavras, na escrita, por espaços em branco.'),
+('EF01LP13', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético', 'Comparar palavras, identificando semelhanças e diferenças entre sons de sílabas mediais e finais.'),
+('EF01LP14', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Pontuação', 'Identificar outros sinais no texto além das letras, como pontos finais, de interrogação e exclamação e seus efeitos na entonação.'),
+('EF01LP15', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sinonímia e antonímia/Morfologia/Pontuação', 'Agrupar palavras pelo critério de aproximação de significado (sinonímia) e separar palavras pelo critério de oposição de significado (antonímia).');
+
+-- 2º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF02LP01', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Construção do sistema alfabético/ Convenções da escrita', 'Utilizar, ao produzir o texto, grafia correta de palavras conhecidas ou com estruturas silábicas já dominadas, letras maiúsculas em início de frases e em substantivos próprios, segmentação entre as palavras, ponto final, ponto de interrogação e ponto de exclamação.'),
+('EF02LP02', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Segmentar palavras em sílabas e remover e substituir sílabas iniciais, mediais ou finais para criar novas palavras.'),
+('EF02LP03', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever palavras com correspondências regulares diretas entre letras e fonemas (f, v, t, d, p, b) e correspondências regulares contextuais (c e q; e e o, em posição átona em final de palavra).'),
+('EF02LP04', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, identificando que existem vogais em todas as sílabas.'),
+('EF02LP05', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever corretamente palavras com marcas de nasalidade (til, m, n).'),
+('EF02LP06', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento do alfabeto do português do Brasil', 'Perceber o princípio acrofónico que opera nos nomes das letras do alfabeto.'),
+('EF02LP07', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento das diversas grafias do alfabeto/ Acentuação', 'Escrever palavras, frases, textos curtos nas formas imprensa e cursiva.'),
+('EF02LP08', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Segmentação de palavras/Classificação de palavras por número de sílabas', 'Segmentar corretamente as palavras ao escrever frases e textos.'),
+('EF02LP09', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Pontuação', 'Usar adequadamente ponto final, ponto de interrogação e ponto de exclamação.'),
+('EF02LP10', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sinonímia e antonímia/Morfologia/Pontuação', 'Identificar sinônimos de palavras de texto lido, determinando a diferença de sentido entre eles, e formar antônimos de palavras encontradas em texto lido pelo acréscimo do prefixo de negação in-/im-.'),
+('EF02LP11', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia', 'Formar o aumentativo e o diminutivo de palavras com os sufixos -ão e -inho/-zinho.');
+
+-- 1º E 2º ANOS - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF12LP04', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'),
+('EF12LP05', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Escrita compartilhada', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, (re)contagens de histórias, poemas e outros textos versificados (letras de canção, quadrinhas, cordel), poemas visuais, tiras e histórias em quadrinhos, dentre outros gêneros do campo artístico-literário, considerando a situação comunicativa e a finalidade do texto.'),
+('EF12LP06', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Produção de textos', 'Escrita compartilhada', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, recados, avisos, convites, receitas, instruções de montagem, dentre outros gêneros do campo da vida cotidiana, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.');
+
+-- 1º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF01LP16', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, quadras, quadrinhas, parlendas, trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'),
+('EF01LP17', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/ finalidade do texto.'),
+('EF01LP18', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Registrar, em colaboração com os colegas e com a ajuda do professor, cantigas, quadras, quadrinhas, parlendas, trava-línguas, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF01LP19', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Recitar parlendas, quadras, quadrinhas, trava-línguas, com entonação adequada e observando as rimas.'),
+('EF01LP20', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em listas, agendas, calendários, regras, avisos, convites, receitas, instruções de montagem e legendas para álbuns, fotos ou ilustrações (digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros.');
+
+-- 2º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF02LP12', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender com certa autonomia cantigas, letras de canção, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.'),
+('EF02LP13', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Escrita autônoma e compartilhada', 'Planejar e produzir bilhetes e cartas, em meio impresso e/ou digital, dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF02LP14', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Escrita autônoma e compartilhada', 'Planejar e produzir pequenos relatos de observação de processos, de fatos, de experiências pessoais, mantendo as características do gênero, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF02LP15', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Cantar cantigas e canções, obedecendo ao ritmo e à melodia.'),
+('EF02LP16', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em bilhetes, recados, avisos, cartas, e-mails, receitas (modo de fazer), relatos (digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros.'),
+('EF02LP17', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em relatos de experiências pessoais, a sequência dos fatos, utilizando expressões que marquem a passagem do tempo ("antes", "depois", "ontem", "hoje", "amanhã", "outro dia", "antigamente", "há muito tempo" etc.), e o nível de informatividade necessário.');
+
+-- 1º E 2º ANOS - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF12LP07', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e (re)produzir, em cantiga, quadras, quadrinhas, parlendas, trava-línguas e canções, rimas, aliterações, assonâncias, o ritmo de fala relacionado ao ritmo e à melodia das músicas e seus efeitos de sentido.'),
+('EF12LP08', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF12LP09', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF12LP10', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, cartazes, avisos, folhetos, regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF12LP11', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Escrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF12LP12', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Escrever, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF12LP13', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Planejar, em colaboração com os colegas e com a ajuda do professor, slogans e peça de campanha de conscientização destinada ao público infantil que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF12LP14', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.'),
+('EF12LP15', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar a forma de composição de slogans publicitários.'),
+('EF12LP16', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil (orais e escritos, digitais ou impressos), a formatação e diagramação específica de cada um desses gêneros, inclusive o uso de imagens.');
+
+-- 1º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF01LP21', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Escrever, em colaboração com os colegas e com a ajuda do professor, listas de regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto.');
+
+-- 2º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF02LP18', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Escrita compartilhada', 'Planejar e produzir cartazes e folhetos para divulgar eventos da escola ou da comunidade, utilizando linguagem persuasiva e elementos textuais e visuais (tamanho da letra, leiaute, imagens) adequados ao gênero, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF02LP19', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, notícias curtas para público infantil, para compor jornal falado que possa ser repassado oralmente ou em meio digital, em áudio ou vídeo, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.');
+
+-- 1º E 2º ANOS - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF12LP17', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, enunciados de tarefas escolares, diagramas, curiosidades, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, entre outros gêneros do campo investigativo, considerando a situação comunicativa e o tema/assunto do texto.');
+
+-- 2º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF02LP20', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Leitura/escuta', 'Imagens analíticas em textos', 'Reconhecer a função de textos utilizados para apresentar informações coletadas em atividades de pesquisa (enquetes, pequenas entrevistas, registros de experimentações).'),
+('EF02LP21', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Leitura/escuta', 'Pesquisa', 'Explorar, com a mediação do professor, textos informativos de diferentes ambientes digitais de pesquisa, conhecendo suas possibilidades.'),
+('EF02LP22', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Produção de textos', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF02LP23', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Escrita autônoma', 'Planejar e produzir, com certa autonomia, pequenos registros de observação de resultados de pesquisa, coerentes com um tema investigado.'),
+('EF02LP24', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Oralidade', 'Planejamento de texto oral/Exposição oral', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, relatos de experimentos, registros de observação, entrevistas, dentre outros gêneros do campo investigativo, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF02LP25', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos/Adequação do texto às normas de escrita', 'Identificar e reproduzir, em relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.');
+
+-- 1º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF01LP22', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Produção de textos', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, diagramas, entrevistas, curiosidades, dentre outros gêneros do campo investigativo, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF01LP23', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Oralidade', 'Planejamento de texto oral/Exposição oral', 'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, entrevistas, curiosidades, dentre outros gêneros do campo investigativo, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF01LP24', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos/Adequação do texto às normas de escrita', 'Identificar e reproduzir, em enunciados de tarefas escolares, diagramas, entrevistas, curiosidades, digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.');
+
+-- 1º E 2º ANOS - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF12LP18', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Apreciação estética/Estilo', 'Apreciar poemas e outros textos versificados, observando rimas, sonoridades, jogos de palavras, reconhecendo seu pertencimento ao mundo imaginário e sua dimensão de encantamento, jogo e fruição.'),
+('EF12LP19', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Leitura/escuta', 'Formas de composição de textos poéticos', 'Reconhecer, em textos versificados, rimas, sonoridades, jogos de palavras, palavras, expressões, comparações, relacionando-as com sensações e associações.');
+
+-- 1º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF01LP25', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Escrita autônoma e compartilhada', 'Produzir, tendo o professor como escriba, recontagens de histórias lidas pelo professor, histórias imaginadas ou baseadas em livros de imagens, observando a forma de composição de textos narrativos (personagens, enredo, tempo e espaço).'),
+('EF01LP26', 'Ensino Fundamental', 1, 'Língua Portuguesa', 'Escrita', 'Formas de composição de narrativas', 'Identificar elementos de uma narrativa lida ou escutada, incluindo personagens, enredo, tempo e espaço.');
+
+-- 2º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF02LP26', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Leitura/escuta', 'Formação do leitor literário', 'Ler e compreender, com certa autonomia, textos literários, de gêneros variados, desenvolvendo o gosto pela leitura.'),
+('EF02LP27', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Escrita autônoma e compartilhada', 'Reescrever textos narrativos literários lidos pelo professor.'),
+('EF02LP28', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Formas de composição de narrativas', 'Reconhecer o conflito gerador de uma narrativa ficcional e sua resolução, além de palavras, expressões e frases que caracterizam personagens e ambientes.'),
+('EF02LP29', 'Ensino Fundamental', 2, 'Língua Portuguesa', 'Escrita', 'Formas de composição de textos poéticos visuais', 'Observar, em poemas visuais, o formato do texto na página, as ilustrações e outros efeitos visuais.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - 3º AO 5º ANO
+-- ============================================================
+
+-- 3º AO 5º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF35LP01', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Decodificação/Fluência de leitura', 'Ler e compreender, silenciosamente e, em seguida, em voz alta, com autonomia e fluência, textos curtos com nível de textualidade adequado.'),
+('EF35LP02', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Formação de leitor', 'Selecionar livros da biblioteca e/ou do cantinho de leitura da sala de aula e/ou disponíveis em meios digitais para leitura individual, justificando a escolha e compartilhando com os colegas sua opinião, após a leitura.'),
+('EF35LP03', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão', 'Identificar a ideia central do texto, demonstrando compreensão global.'),
+('EF35LP04', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Inferir informações implícitas nos textos lidos.'),
+('EF35LP05', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Inferir o sentido de palavras ou expressões desconhecidas em textos, com base no contexto da frase ou do texto.'),
+('EF35LP06', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Estratégia de leitura', 'Recuperar relações entre partes de um texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos - pessoais, possessivos, demonstrativos) que contribuem para a continuidade do texto.'),
+('EF35LP07', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Construção do sistema alfabético/ Convenções da escrita', 'Utilizar, ao produzir um texto, conhecimentos linguísticos e gramaticais, tais como ortografia, regras básicas de concordância nominal e verbal, pontuação (ponto final, ponto de exclamação, ponto de interrogação, vírgulas em enumerações) e pontuação do discurso direto, quando for o caso.'),
+('EF35LP08', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Construção do sistema alfabético/ Estabelecimento de relações anafóricas na referenciação e construção da coesão', 'Utilizar, ao produzir um texto, recursos de referenciação (por substituição lexical ou por pronomes pessoais, possessivos e demonstrativos), vocabulário apropriado ao gênero, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível suficiente de informatividade.'),
+('EF35LP09', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Planejamento de texto/Progressão temática e paragrafação', 'Organizar o texto em unidades de sentido, dividindo-o em parágrafos segundo as normas gráficas e de acordo com as características do gênero textual.'),
+('EF35LP10', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Forma de composição de gêneros orais', 'Identificar gêneros do discurso oral, utilizados em diferentes situações e contextos comunicativos, e suas características linguístico-expressivas e composicionais (conversação espontânea, conversação telefônica, entrevistas pessoais, entrevistas no rádio ou na TV, debate, noticiário de rádio e TV, narração de jogos esportivos no rádio e TV, aula, debate etc.).'),
+('EF35LP11', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Variação linguística', 'Ouvir gravações, canções, textos falados em diferentes variedades linguísticas, identificando características regionais, urbanas e rurais da fala e respeitando as diversas variedades linguísticas como características do uso da língua por diferentes grupos regionais ou diferentes culturas locais, rejeitando preconceitos linguísticos.'),
+('EF35LP12', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema.'),
+('EF35LP13', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema.'),
+('EF35LP14', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico.'),
+('EF35LP15', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto.');
+
+-- 3º AO 5º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF35LP16', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.');
+
+-- 3º AO 5º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF35LP17', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Pesquisa', 'Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais.'),
+('EF35LP18', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Escuta de textos orais', 'Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.'),
+('EF35LP19', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Compreensão de textos orais', 'Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras.'),
+('EF35LP20', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Planejamento de texto oral/Exposição oral', 'Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa.');
+
+-- 3º AO 5º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF35LP21', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Formação do leitor literário', 'Ler e compreender, de forma autónoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.'),
+('EF35LP22', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Formação do leitor literário', 'Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.'),
+('EF35LP23', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Apreciação estética/Estilo', 'Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrões e seu efeito de sentido.'),
+('EF35LP24', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Textos dramáticos', 'Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.'),
+('EF35LP25', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita autônoma e compartilhada', 'Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.'),
+('EF35LP26', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita autônoma', 'Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.'),
+('EF35LP27', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita autônoma', 'Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.'),
+('EF35LP28', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Declamação', 'Declamar poemas, com entonação, postura e interpretação adequadas.'),
+('EF35LP29', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Formas de composição de narrativas', 'Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas.'),
+('EF35LP30', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Discurso direto e indireto', 'Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso.'),
+('EF35LP31', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição de textos poéticos', 'Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas.');
+
+-- 3º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF03LP01', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever palavras com correspondências regulares contextuais entre grafemas e fonemas - c/qu; g/qu; r/rr; s/ss; o (e não u) e e (e não i) em sílaba átona em final de palavra - e com marcas de nasalidade (til, m, n).'),
+('EF03LP02', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever corretamente palavras com sílabas CV, V, CVC, CCV, VC, VV, CVV, identificando que existem vogais em todas as sílabas.'),
+('EF03LP03', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever corretamente palavras com os dígrafos lh, nh, ch.'),
+('EF03LP04', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento das diversas grafias do alfabeto/ Acentuação', 'Usar acento gráfico (agudo ou circunflexo) em monossílabos tónicos terminados em a, e, o e em palavras exitosas terminadas em a, e, o, seguidas ou não de s.'),
+('EF03LP05', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Segmentação de palavras/Classificação de palavras por número de sílabas', 'Identificar o número de sílabas de palavras, classificando-as em monossílabas, dissílabas, trissílabas e polissílabas.'),
+('EF03LP06', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético', 'Identificar a sílaba tónica em palavras, classificando-as em exitónas, paroxítonas e proparoxítonas.'),
+('EF03LP07', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Pontuação', 'Identificar a função na leitura e usar na escrita ponto final, ponto de interrogação, ponto de exclamação e, em diálogos (discurso direto), dois-pontos e travessão.'),
+('EF03LP08', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia/Morfossintaxe', 'Identificar e diferenciar, em textos, substantivos e verbos e suas funções na oração: agente, ação, objeto da ação.'),
+('EF03LP09', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos, adjetivos e sua função de atribuição de propriedades aos substantivos.'),
+('EF03LP10', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia', 'Reconhecer prefixos e sufixos produtivos na formação de palavras derivadas de substantivos, de adjetivos e de verbos, utilizando-os para compreender palavras e para formar novas palavras.');
+
+-- 3º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF03LP11', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, textos injuntivos instrucionais (receitas, instruções de montagem etc.), com a estrutura própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e mesclando palavras, imagens e recursos gráfico-visuais, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP12', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, cartas pessoais e diários, com expressão de sentimentos e opiniões, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP13', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Planejar e produzir cartas pessoais e diários, com expressão de sentimentos e opiniões, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções dos gêneros carta e diário e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP14', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Planejar e produzir textos injuntivos instrucionais, com a estrutura própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e mesclando palavras, imagens e recursos gráfico-visuais, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP15', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Assistir, em vídeo digital, a programa de culinária infantil e, a partir dele, planejar e produzir receitas em áudio ou vídeo.'),
+('EF03LP16', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em textos injuntivos instrucionais (receitas, instruções de montagem, digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e a diagramação específica dos textos desses gêneros (lista de ingredientes ou materiais e instruções de execução - "modo de fazer").'),
+('EF03LP17', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em gêneros epistolares e diários, a formatação própria desses textos (relatos de acontecimentos, expressão de vivências, emoções, opiniões ou críticas) e a diagramação específica dos textos desses gêneros (data, saudação, corpo do texto, despedida, assinatura).');
+
+-- 3º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF03LP18', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, cartas dirigidas a veículos da mídia impressa ou digital (cartas de leitor e de reclamação a jornais, revistas) e notícias, dentre outros gêneros do campo jornalístico, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP19', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Identificar e discutir o propósito do uso de recursos de persuasão (cores, imagens, escolha de palavras, jogo de palavras, tamanho de letras) em textos publicitários e de propaganda, como elementos de convencimento.'),
+('EF03LP20', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Produzir cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), dentre outros gêneros do campo político-cidadão, com opiniões e críticas, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP21', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Produzir anúncios publicitários, textos de campanhas de conscientização destinados ao público infantil, observando os recursos de persuasão utilizados nos textos publicitários e de propaganda (cores, imagens, slogan, escolha de palavras, jogo de palavras, tamanho e tipo de letras, diagramação).'),
+('EF03LP22', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Planejamento e produção de texto', 'Planejar e produzir, em colaboração com os colegas, telejornal para público infantil com algumas notícias e textos de campanhas que possam ser repassados oralmente ou em meio digital, em áudio ou vídeo, considerando a situação comunicativa, a organização específica da fala nesses gêneros e o tema/assunto/ finalidade dos textos.'),
+('EF03LP23', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Analisar o uso de adjetivos em cartas dirigidas a veículos da mídia impressa ou digital (cartas do leitor ou de reclamação a jornais ou revistas), digitais ou impressas.');
+
+-- 3º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF03LP24', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler/ouvir e compreender, com autonomia, relatos de observações e de pesquisas em fontes de informações, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP25', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Produção de textos', 'Produção de textos', 'Planejar e produzir textos para apresentar resultados de observações e de pesquisas em fontes de informações, incluindo, quando pertinente, imagens, diagramas e gráficos ou tabelas simples, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF03LP26', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos/Adequação do texto às normas de escrita', 'Identificar e reproduzir, em relatórios de observação e pesquisa, a formatação e diagramação específica desses gêneros (passos ou listas de itens, tabelas, ilustrações, gráficos, resumo dos resultados), inclusive em suas versões orais.');
+
+-- 3º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF03LP27', 'Ensino Fundamental', 3, 'Língua Portuguesa', 'Oralidade', 'Performances orais', 'Recitar cordel e cantar repentes e emboladas, observando as rimas e obedecendo ao ritmo e à melodia.');
+
+-- 4º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF04LP01', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Grafar palavras utilizando regras de correspondência fonema-grafema regulares diretas e contextuais.'),
+('EF04LP02', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Ler e escrever, corretamente, palavras com sílabas VV e CVV em casos nos quais a combinação VV (ditongo) é reduzida na língua oral (ai, ei, ou).'),
+('EF04LP03', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento do alfabeto do português do Brasil/Ordem alfabética/Polissemia', 'Localizar palavras no dicionário para esclarecer significados, reconhecendo o significado mais plausível para o contexto que deu origem à consulta.'),
+('EF04LP04', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento das diversas grafias do alfabeto/ Acentuação', 'Usar acento gráfico (agudo ou circunflexo) em paroxítonas terminadas em -i(s), -l, -r, -ão(s).'),
+('EF04LP05', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Pontuação', 'Identificar a função na leitura e usar, adequadamente, na escrita ponto final, de interrogação, de exclamação, dois-pontos e travessão em diálogos (discurso direto), vírgula em enumerações e em separação de vocativo e de aposto.'),
+('EF04LP06', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia/Morfossintaxe', 'Identificar em textos e usar na produção textual a concordância entre substantivo ou pronome pessoal e verbo (concordância verbal).'),
+('EF04LP07', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar em textos e usar na produção textual a concordância entre artigo, substantivo e adjetivo (concordância no grupo nominal).'),
+('EF04LP08', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia', 'Reconhecer e grafar, corretamente, palavras derivadas com os sufixos -agem, -oso, -eza, -izar/-isar (regulares morfológicas).');
+
+-- 4º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF04LP09', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, boletos, faturas e carnês, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero (campos, itens elencados, medidas de consumo, código de barras) e considerando a situação comunicativa e a finalidade do texto.'),
+('EF04LP10', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF04LP11', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Planejar e produzir, com autonomia, cartas pessoais de reclamação, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero carta e com a estrutura própria desses textos (problema, opinião, argumentos), considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF04LP12', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Assistir, em vídeo digital, a programa infantil com instruções de montagem, de jogos e brincadeiras e, a partir dele, planejar e produzir tutoriais em áudio ou vídeo.'),
+('EF04LP13', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em textos injuntivos instrucionais (instruções de jogos digitais ou impressos), a formatação própria desses textos (verbos imperativos, indicação de passos a ser seguidos) e formato específico dos textos orais ou escritos desses gêneros (lista/ apresentação de materiais e instruções/passos de jogo).');
+
+-- 4º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF04LP14', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Identificar, em notícias, fatos, participantes, local e momento/tempo da ocorrência do fato noticiado.'),
+('EF04LP15', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Distinguir fatos de opiniões/sugestões em textos (informativos, jornalísticos, publicitários etc.).'),
+('EF04LP16', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Produzir notícias sobre fatos ocorridos no universo escolar, digitais ou impressas, para o jornal da escola, noticiando os fatos e seus atores e comentando decorrências, de acordo com as convenções do gênero notícia e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF04LP17', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Oralidade', 'Produção de texto', 'Produzir jornais radiofónicos ou televisivos e entrevistas veiculadas em rádio, TV e na internet, orientando-se por roteiro ou texto e demonstrando conhecimento dos gêneros jornal falado/televisivo e entrevista.'),
+('EF04LP18', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Analisar o padrão entonacional e a expressão facial e corporal de âncoras de jornais radiofónicos ou televisivos e de entrevistadores/entrevistados.');
+
+-- 4º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF04LP19', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender textos expositivos de divulgação científica para crianças, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF04LP20', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Leitura/escuta', 'Imagens analíticas em textos', 'Reconhecer a função de gráficos, diagramas e tabelas em textos, como forma de apresentação de dados e informações.'),
+('EF04LP21', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Produção de textos', 'Produção de textos', 'Planejar e produzir textos sobre temas de interesse, com base em resultados de observações e pesquisas em fontes de informações impressas ou eletrônicas, incluindo, quando pertinente, imagens e gráficos ou tabelas simples, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF04LP22', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Produção de textos', 'Produção de textos', 'Planejar e produzir, com certa autonomia, verbetes de enciclopédia infantil, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF04LP23', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Identificar e reproduzir, em verbetes de enciclopédia infantil, digitais ou impressos, a formatação e diagramação específica desse gênero (título do verbete, definição, detalhamento, curiosidades), considerando a situação comunicativa e o tema/ assunto/finalidade do texto.'),
+('EF04LP24', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Identificar e reproduzir, em seu formato, tabelas, diagramas e gráficos em relatórios de observação e pesquisa, como forma de apresentação de dados e informações.');
+
+-- 4º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF04LP25', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Oralidade', 'Performances orais', 'Representar cenas de textos dramáticos, reproduzindo as falas das personagens, de acordo com as rubricas de interpretação e movimento indicadas pelo autor.'),
+('EF04LP26', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição de textos poéticos visuais', 'Observar, em poemas concretos, o formato, a distribuição e a diagramação das letras do texto na página.'),
+('EF04LP27', 'Ensino Fundamental', 4, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição de textos dramáticos', 'Identificar, em textos dramáticos, marcadores das falas das personagens e de cena.');
+
+-- 5º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF05LP01', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção do sistema alfabético e da ortografia', 'Grafar palavras utilizando regras de correspondência fonema-grafema regulares, contextuais e morfológicas e palavras de uso frequente com correspondências irregulares.'),
+('EF05LP02', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento do alfabeto do português do Brasil/Ordem alfabética/Polissemia', 'Identificar o caráter polissêmico das palavras (uma mesma palavra com diferentes significados, de acordo com o contexto de uso), comparando o significado de determinados termos utilizados nas áreas científicas com esses mesmos termos utilizados na linguagem usual.'),
+('EF05LP03', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Conhecimento das diversas grafias do alfabeto/ Acentuação', 'Acentuar corretamente palavras exitosas, paroxítonas e proparoxítonas.'),
+('EF05LP04', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Pontuação', 'Diferenciar, na leitura de textos, vírgula, ponto e vírgula, dois-pontos e reconhecer, na leitura de textos, o efeito de sentido que decorre do uso de reticências, aspas, parênteses.'),
+('EF05LP05', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia/Morfossintaxe', 'Identificar a expressão de presente, passado e futuro em tempos verbais do modo indicativo.'),
+('EF05LP06', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia/Morfossintaxe', 'Flexionar, adequadamente, na escrita e na oralidade, os verbos em concordância com pronomes pessoais/nomes sujeitos da oração.'),
+('EF05LP07', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos, o uso de conjunções e a relação que estabelecem entre partes do texto: adição, oposição, tempo, causa, condição, finalidade.'),
+('EF05LP08', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfologia', 'Diferenciar palavras primitivas, derivadas e compostas, e derivadas por adição de prefixo e de sufixo.');
+
+-- 5º ANO - CAMPO DA VIDA COTIDIANA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF05LP09', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, textos instrucional de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.'),
+('EF05LP10', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.'),
+('EF05LP11', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Registrar, com autonomia, anedotas, piadas e cartuns, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.'),
+('EF05LP12', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Planejar e produzir, com autonomia, textos instrucionais de regras de jogo, dentre outros gêneros do campo da vida cotidiana, de acordo com as convenções do gênero e considerando a situação comunicativa e a finalidade do texto.'),
+('EF05LP13', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Oralidade', 'Produção de texto oral', 'Assistir, em vídeo digital, a postagem de vlog infantil de críticas de brinquedos e livros de literatura infantil e, a partir dele, planejar e produzir resenhas digitais em áudio ou vídeo.'),
+('EF05LP14', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição do texto', 'Identificar e reproduzir, em textos de resenha crítica de brinquedos ou livros de literatura infantil, a formatação própria desses textos (apresentação e avaliação do produto).');
+
+-- 5º ANO - CAMPO DA VIDA PÚBLICA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF05LP15', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler/assistir e compreender, com autonomia, notícias, reportagens, vídeos em vlogs argumentativos, dentre outros gêneros do campo político-cidadão, de acordo com as convenções dos gêneros e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF05LP16', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Comparar informações sobre um mesmo fato veiculadas em diferentes mídias e concluir sobre qual é mais confiável e por quê.'),
+('EF05LP17', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Produção de textos', 'Escrita colaborativa', 'Produzir roteiro para edição de uma reportagem digital sobre temas de interesse da turma, a partir de buscas de informações, imagens, áudios e vídeos na internet, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF05LP18', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Oralidade', 'Planejamento e produção de texto', 'Roteirizar, produzir e editar vídeo para vlogs argumentativos sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos, de acordo com as convenções do gênero e considerando a situação comunicativa e o tema/ assunto/finalidade do texto.'),
+('EF05LP19', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Oralidade', 'Produção de texto', 'Argumentar oralmente sobre acontecimentos de interesse social, com base em conhecimentos sobre fatos divulgados em TV, rádio, mídia impressa e digital, respeitando pontos de vista diferentes.'),
+('EF05LP20', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Analisar a validade e força de argumentos em argumentações sobre produtos de mídia para público infantil (filmes, desenhos animados, HQs, games etc.), com base em conhecimentos sobre os mesmos.'),
+('EF05LP21', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos', 'Analisar o padrão entonacional, a expressão facial e corporal e as escolhas de variedade e registro linguísticos de vloggers de vlogs opinativos ou argumentativos.');
+
+-- 5º ANO - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF05LP22', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Compreensão em leitura', 'Ler e compreender verbetes de dicionário, identificando a estrutura, as informações gramaticais (significado de abreviaturas) e as informações semânticas.'),
+('EF05LP23', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Leitura/escuta', 'Imagens analíticas em textos', 'Comparar informações apresentadas em gráficos ou tabelas.'),
+('EF05LP24', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Produção de textos', 'Produção de textos', 'Planejar e produzir texto sobre tema de interesse, organizando resultados de pesquisa em fontes de informação impressas ou digitais, incluindo imagens e gráficos ou tabelas, considerando a situação comunicativa e o tema/assunto do texto.'),
+('EF05LP25', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Produção de textos', 'Produção de textos', 'Planejar e produzir, com certa autonomia, verbetes de dicionário, digitais ou impressos, considerando a situação comunicativa e o tema/assunto/finalidade do texto.'),
+('EF05LP26', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição dos textos/Adequação do texto às normas de escrita', 'Utilizar, ao produzir o texto, conhecimentos linguísticos e gramaticais: regras sintáticas de concordância nominal e verbal, convenções de escrita de citações, pontuação (ponto final, dois-pontos, vírgulas em enumerações) e regras ortográficas.'),
+('EF05LP27', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão e articuladores', 'Utilizar, ao produzir o texto, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível adequado de informatividade.');
+
+-- 5º ANO - CAMPO ARTÍSTICO-LITERÁRIO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF05LP28', 'Ensino Fundamental', 5, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Forma de composição de textos poéticos visuais', 'Observar, em ciberpoemas e minicontos infantis em mídia digital, os recursos multissemióticos presentes nesses textos digitais.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - 6º AO 9º ANO
+-- CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+
+-- 6º AO 9º ANO - CAMPO JORNALÍSTICO-MIDIÁTICO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF69LP01', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Diferenciar liberdade de expressão de discursos de ódio, posicionando-se contrariamente a esse tipo de discurso e vislumbrando possibilidades de denúncia quando for o caso.'),
+('EF69LP02', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação entre gêneros e mídias', 'Analisar e comparar peças publicitárias variadas (cartazes, folhetos, outdoor, anúncios e propagandas em diferentes mídias, spots, jingle, vídeos etc.), de forma a perceber a articulação entre elas em campanhas, as especificidades das várias semioses e mídias, a adequação dessas peças ao público-alvo, aos objetivos do anunciante e/ou da campanha e à construção composicional e estilo dos gêneros em questão, como forma de ampliar suas possibilidades de compreensão (e produção) de textos pertencentes a esses gêneros.'),
+('EF69LP03', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura: apreender os sentidos globais do texto', 'Identificar, em notícias, o fato central, suas principais circunstâncias e eventuais decorrências; em reportagens e fotorreportagens o fato ou a temática retratada e a perspectiva de abordagem, em entrevistas os principais temas/subtemas abordados, explicações dadas ou teses defendidas em relação a esses subtemas; em tirinhas, memes, charge, a crítica, ironia ou humor presente.'),
+('EF69LP04', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Identificar e analisar os efeitos de sentido que fortalecem a persuasão nos textos publicitários, relacionando as estratégias de persuasão e apelo ao consumo com os recursos linguístico-discursivos utilizados, como imagens, tempo verbal, jogos de palavras, figuras de linguagem etc., com vistas a fomentar práticas de consumo conscientes.'),
+('EF69LP05', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Inferir e justificar, em textos multissemióticos - tirinhas, charges, memes, gifs etc. -, o efeito de humor, ironia e/ou crítica pelo uso ambíguo de palavras, expressões ou imagens ambíguas, de clichês, de recursos iconográficos, de pontuação etc.'),
+('EF69LP06', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Relação do texto com o contexto de produção e experimentação de papéis sociais', 'Produzir e publicar notícias, fotodenúncias, fotorreportagens, reportagens multimidiáticas, infográficos, podcasts noticiosos, entrevistas, cartas de leitor, comentários, artigos de opinião de interesse local ou global, textos de apresentação e apreciação de produção cultural - resenhas e outros próprios das formas de expressão das culturas juvenis, tais como vlogs e podcasts culturais, gameplay, detonado etc.- e cartazes, anúncios, propagandas, spots, jingles de campanhas sociais, dentre outros em várias mídias, vivenciando de forma significativa o papel de repórter, de comentador, de analista, de crítico, de editor ou articulista, de booktuber, de vlogger (vlogueiro) etc., como forma de compreender as condições de produção que envolvem a circulação desses textos e poder participar e vislumbrar possibilidades de participação nas práticas de linguagem do campo jornalístico e do campo midiático de forma ética e responsável, levando-se em consideração o contexto da Web 2.0, que amplia a possibilidade de circulação desses textos e "funde" os papéis de leitor e autor, de consumidor e produtor.'),
+('EF69LP07', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Textualização', 'Produzir textos em diferentes gêneros, considerando sua adequação ao contexto produção e circulação - os enunciadores envolvidos, os objetivos, o gênero, o suporte, a circulação -, ao modo (escrito ou oral; imagem estática ou em movimento etc.), à variedade linguística e/ou semiótica apropriada a esse contexto, à construção da textualidade relacionada às propriedades textuais e do gênero), utilizando estratégias de planejamento, elaboração, revisão, edição, reescrita/redesign e avaliação de textos, para, com a ajuda do professor e a colaboração dos colegas, corrigir e aprimorar as produções realizadas, fazendo cortes, acréscimos, reformulações, correções de concordância, ortografia, pontuação em textos e editando imagens, arquivos sonoros, fazendo cortes, acréscimos, ajustes, acrescentando/ alterando efeitos, ordenamentos etc.'),
+('EF69LP08', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Revisão/edição de texto informativo e opinativo', 'Revisar/editar o texto produzido - notícia, reportagem, resenha, artigo de opinião, dentre outros -, tendo em vista sua adequação ao contexto de produção, a mídia em questão, características do gênero, aspectos relativos à textualidade, a relação entre as diferentes semioses, a formatação e uso adequado das ferramentas de edição (de texto, foto, áudio e vídeo, dependendo do caso) e adequação à norma culta.'),
+('EF69LP09', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Planejamento de textos de peças publicitárias de campanhas sociais', 'Planejar uma campanha publicitária sobre questões/problemas, temas, causas significativas para a escola e/ou comunidade, a partir de um levantamento de material sobre o tema ou evento, da definição do público-alvo, do texto ou peça a ser produzido - cartaz, banner, folheto, panfleto, anúncio impresso e para internet, spot, propaganda de rádio, TV etc. -, da ferramenta de edição de texto, áudio ou vídeo que será utilizada, do recorte e enfoque a ser dado, das estratégias de persuasão que serão utilizadas etc.'),
+('EF69LP10', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Produção de textos jornalísticos orais', 'Produzir notícias para rádios, TV ou vídeos, podcasts noticiosos e de opinião, entrevistas, comentários, vlogs, jornais radiofônicos e televisivos, dentre outros possíveis, relativos a fato e temas de interesse pessoal, local ou global e textos orais de apreciação e opinião - podcasts e vlogs noticiosos, culturais e de opinião, orientando-se por roteiro ou texto, considerando o contexto de produção e demonstrando domínio dos gêneros.'),
+('EF69LP11', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Participação em discussões orais de temas controversos de interesse da turma e/ou de relevância social', 'Identificar e analisar posicionamentos defendidos e refutados na escuta de interações polêmicas em entrevistas, discussões e debates (televisivo, em sala de aula, em redes sociais etc.), entre outros, e se posicionar frente a eles.'),
+('EF69LP12', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Planejamento e produção de textos jornalísticos orais', 'Desenvolver estratégias de planejamento, elaboração, revisão, edição, reescrita/ redesign (esses três últimos quando não for situação ao vivo) e avaliação de textos orais, áudio e/ou vídeo, considerando sua adequação aos contextos em que foram produzidos, à forma composicional e estilo de gêneros, a clareza, progressão temática e variedade linguística empregada, os elementos relacionados à fala, tais como modulação de voz, entonação, ritmo, altura e intensidade, respiração etc., os elementos cinésicos, tais como postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia etc.'),
+('EF69LP13', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Participação em discussões orais de temas controversos de interesse da turma e/ou de relevância social', 'Engajar-se e contribuir com a busca de conclusões comuns relativas a problemas, temas ou questões polêmicas de interesse da turma e/ou de relevância social.'),
+('EF69LP14', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Participação em discussões orais de temas controversos de interesse da turma e/ou de relevância social', 'Formular perguntas e decompor, com a ajuda dos colegas e dos professores, tema/questão polêmica, explicações e ou argumentos relativos ao objeto de discussão para análise mais minuciosa e buscar em fontes diversas informações ou dados que permitam analisar partes da questão e compartilhá-los com a turma.'),
+('EF69LP15', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Participação em discussões orais de temas controversos de interesse da turma e/ou de relevância social', 'Apresentar argumentos e contra-argumentos coerentes, respeitando os turnos de fala, na participação em discussões sobre temas controversos e/ou polêmicos.'),
+('EF69LP16', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção composicional', 'Analisar e utilizar as formas de composição dos gêneros jornalísticos da ordem do relatar, tais como notícias (pirâmide invertida no impresso X blocos noticiosos hipertextuais e hipermidiáticos no digital, que também pode contar com imagens de vários tipos, vídeos, gravações de áudio etc.), da ordem do argumentar, tais como artigos de opinião e editorial (contextualização, defesa de tese/opinião e uso de argumentos) e das entrevistas: apresentação e contextualização do entrevistado e do tema, estrutura pergunta e resposta etc.'),
+('EF69LP17', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Estilo', 'Perceber e analisar os recursos estilísticos e semióticos dos gêneros jornalísticos e publicitários, os aspectos relativos ao tratamento da informação em notícias, como a ordenação dos eventos, as escolhas lexicais, o efeito de imparcialidade do relato, a morfologia do verbo, em textos noticiosos e argumentativos, reconhecendo marcas de pessoa, número, tempo, modo, a distribuição dos verbos nos gêneros textuais (por exemplo, as formas de pretérito em relatos; as formas de presente e futuro em gêneros argumentativos; as formas de imperativo em gêneros publicitários), o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e as estratégias de persuasão e apelo ao consumo com os recursos linguístico-discursivos utilizados (tempo verbal, jogos de palavras, metáforas, imagens).'),
+('EF69LP18', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Estilo', 'Utilizar, na escrita/reescrita de textos argumentativos, recursos linguísticos que marquem as relações de sentido entre parágrafos e enunciados do texto e operadores de conexão adequados aos tipos de argumento e à forma de composição de textos argumentativos, de maneira a garantir a coesão, a coerência e a progressão temática nesses textos ("primeiramente, mas, no entanto, em primeiro/segundo/terceiro lugar, finalmente, em conclusão" etc.).'),
+('EF69LP19', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Efeito de sentido', 'Analisar, em gêneros orais que envolvam argumentação, os efeitos de sentido de elementos típicos da modalidade falada, como a pausa, a entonação, o ritmo, a gestualidade e expressão facial, as hesitações etc.');
+
+-- ============================================================
+-- CAMPO DE ATUAÇÃO NA VIDA PÚBLICA - 6º AO 9º ANO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF69LP20', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução das condições de produção e circulação e adequação do texto à construção composicional e ao estilo de gênero (Lei, código, estatuto, código, regimento etc.)', 'Identificar, tendo em vista o contexto de produção, a forma de organização dos textos normativos e legais, a lógica de hierarquização de seus itens e subitens e suas partes: parte inicial (título – nome e data – e ementa), blocos de artigos (parte, livro, capítulo, seção, subseção), artigos (caput e parágrafos e incisos) e parte final (disposições pertinentes à sua implementação) e analisar efeitos de sentido causados pelo uso de vocabulário técnico, pelo uso do imperativo, de palavras e expressões que indicam circunstâncias, como advérbios e locuções adverbiais, de palavras que indicam generalidade, como alguns pronomes indefinidos, de forma a poder compreender o caráter imperativo, coercitivo e generalista das leis e de outras formas de regulamentação.'),
+('EF69LP21', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Posicionar-se em relação a conteúdos veiculados em práticas não institucionalizadas de participação social, sobretudo àquelas vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e práticas próprias das culturas juvenis que pretendam denunciar, expor uma problemática ou "convocar" para uma reflexão/ação, relacionando esse texto/produção com seu contexto de produção e relacionando as partes e semioses presentes para a construção de sentidos.'),
+('EF69LP22', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Textualização, revisão e edição', 'Produzir, revisar e editar textos reivindicatórios ou propositivos sobre problemas que afetam a vida escolar ou da comunidade, justificando pontos de vista, reivindicações e detalhando propostas (justificativa, objetivos, ações previstas etc.), levando em conta seu contexto de produção e as características dos gêneros em questão.'),
+('EF69LP23', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Textualização, revisão e edição', 'Contribuir com a escrita de textos normativos, quando houver esse tipo de demanda na escola – regimentos e estatutos de organizações da sociedade civil do âmbito da atuação das crianças e jovens (grêmio livre, clubes de leitura, associações culturais etc.) – e de regras e regulamentos nos vários âmbitos da escola – campeonatos, festivais, regras de convivência etc., levando em conta o contexto de produção e as características dos gêneros em questão.'),
+('EF69LP24', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Discussão oral', 'Discutir casos, reais ou simulações, submetidos a juízo, que envolvam (supostos) desrespeitos a artigos, do ECA, do Código de Defesa do Consumidor, do Código Nacional de Trânsito, de regulamentações do mercado publicitário etc., como forma de criar familiaridade com textos legais – seu vocabulário, formas de organização, marcas de estilo etc. -, de maneira a facilitar a compreensão de leis, fortalecer a defesa de direitos, fomentar a escrita de textos normativos (se e quando isso for necessário) e possibilitar a compreensão do caráter interpretativo das leis e as várias perspectivas que podem estar em jogo.'),
+('EF69LP25', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Discussão oral', 'Posicionar-se de forma consistente e sustentada em uma discussão, assembleia, reuniões de colegiados da escola, de agremiações e outras situações de apresentação de propostas e defesas de opiniões, respeitando as opiniões contrárias e propostas alternativas e fundamentando seus posicionamentos, no tempo de fala previsto, valendo-se de sínteses e propostas claras e justificadas.'),
+('EF69LP26', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Registro', 'Tomar nota em discussões, debates, palestras, apresentação de propostas, reuniões, como forma de documentar o evento e apoiar a própria fala (que pode se dar no momento do evento ou posteriormente, quando, por exemplo, for necessária a retomada dos assuntos tratados em outros contextos públicos, como diante dos representados).'),
+('EF69LP27', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Análise de textos legais/normativos, propositivos e reivindicatórios', 'Analisar a forma composicional de textos pertencentes a gêneros normativos/ jurídicos e a gêneros da esfera política, tais como propostas, programas políticos (posicionamento quanto a diferentes ações a serem propostas, objetivos, ações previstas etc.), propaganda política (propostas e sua sustentação, posicionamento quanto a temas em discussão) e textos reivindicatórios: cartas de reclamação, petição (proposta, suas justificativas e ações a serem adotadas) e suas marcas linguísticas, de forma a incrementar a compreensão de textos pertencentes a esses gêneros e a possibilitar a produção de textos mais adequados e/ou fundamentados quando isso for requerido.'),
+('EF69LP28', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Modalização', 'Observar os mecanismos de modalização adequados aos textos jurídicos, as modalidades deônticas, que se referem ao eixo da conduta (obrigatoriedade/permissibilidade) como, por exemplo: Proibição: "Não se deve fumar em recintos fechados."; Obrigatoriedade: "A vida tem que valer a pena."; Possibilidade: "É permitido a entrada de menores acompanhados de adultos responsáveis", e os mecanismos de modalização adequados aos textos políticos e propositivos, as modalidades apreciativas, em que o locutor exprime um juízo de valor (positivo ou negativo) acerca do que enuncia. Por exemplo: "Que belo discurso!", "Discordo das escolhas de Antônio." "Felizmente, o buraco ainda não causou acidentes mais graves."');
+
+-- ============================================================
+-- CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA - 6º AO 9º ANO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF69LP29', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução das condições de produção e recepção dos textos e adequação do texto à construção composicional e ao estilo de gênero', 'Refletir sobre a relação entre os contextos de produção dos gêneros de divulgação científica – texto didático, artigo de divulgação científica, reportagem de divulgação científica, verbete de enciclopédia (impressa e digital), esquema, infográfico (estático e animado), relatório, relato multimidiático de campo, podcasts e vídeos variados de divulgação científica etc. – e os aspectos relativos à construção composicional e às marcas linguística características desses gêneros, de forma a ampliar suas possibilidades de compreensão (e produção) de textos pertencentes a esses gêneros.'),
+('EF69LP30', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Comparar, com a ajuda do professor, conteúdos, dados e informações de diferentes fontes, levando em conta seus contextos de produção e referências, identificando coincidências, complementaridades e contradições, de forma a poder identificar erros/imprecisões conceituais, compreender e posicionar-se criticamente sobre os conteúdos e informações em questão.'),
+('EF69LP31', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégias e procedimentos de leitura', 'Utilizar pistas linguísticas – tais como "em primeiro/segundo/terceiro lugar", "por outro lado", "dito de outro modo", isto é", "por exemplo" – para compreender a hierarquização das proposições, sintetizando o conteúdo dos textos.'),
+('EF69LP32', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégias e procedimentos de leitura', 'Selecionar informações e dados relevantes de fontes diversas (impressas, digitais, orais etc.), avaliando a qualidade e a utilidade dessas fontes, e organizar, esquematicamente, com ajuda do professor, as informações necessárias (sem excedê-las) com ou sem apoio de ferramentas digitais, em quadros, tabelas ou gráficos.'),
+('EF69LP33', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação do verbal com outras semioses', 'Articular o verbal com os esquemas, infográficos, imagens variadas etc. na (re)construção dos sentidos dos textos de divulgação científica e retextualizar do discursivo para o esquemático – infográfico, esquema, tabela, gráfico, ilustração etc. – e, ao contrário, transformar o conteúdo das tabelas, esquemas, infográficos, ilustrações etc. em texto discursivo, como forma de ampliar as possibilidades de compreensão desses textos e analisar as características das multissemioses e dos gêneros em questão.'),
+('EF69LP34', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Procedimentos e gêneros de apoio à compreensão', 'Grifar as partes essenciais do texto, tendo em vista os objetivos de leitura, produzir marginálias (ou tomar notas em outro suporte), sínteses organizadas em itens, quadro sinóptico, quadro comparativo, esquema, resumo ou resenha do texto lido (com ou sem comentário/análise), mapa conceitual, dependendo do que for mais adequado, como forma de possibilitar uma maior compreensão do texto, a sistematização de conteúdos e informações e um posicionamento frente aos textos, se esse for o caso.'),
+('EF69LP35', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Consideração das condições de produção de textos de divulgação científica', 'Planejar textos de divulgação científica, a partir da elaboração de esquema que considere as pesquisas feitas anteriormente, de notas e sínteses de leituras ou de registros de experimentos ou de estudo de campo, produzir, revisar e editar textos voltados para a divulgação do conhecimento e de dados e resultados de pesquisas, tais como artigo de divulgação científica, artigo de opinião, reportagem científica, verbete de enciclopédia, verbete de enciclopédia digital colaborativa, infográfico, relatório, relato de experimento científico, relato (multimidiático) de campo, tendo em vista seus contextos de produção, que podem envolver a disponibilização de informações e conhecimentos em circulação em um formato mais acessível para um público específico ou a divulgação de conhecimentos advindos de pesquisas bibliográficas, experimentos científicos e estudos de campo realizados.'),
+('EF69LP36', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita', 'Produzir, revisar e editar textos voltados para a divulgação do conhecimento e de dados e resultados de pesquisas, tais como artigos de divulgação científica, verbete de enciclopédia, infográfico, infográfico animado, podcast ou vlog científico, relato de experimento, relatório, relatório multimidiático de campo, dentre outros, considerando o contexto de produção e as regularidades dos gêneros em termos de suas construções composicionais e estilos.'),
+('EF69LP37', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita: textualização, revisão e edição', 'Produzir roteiros para elaboração de vídeos de diferentes tipos (vlog científico, vídeo-minuto, programa de rádio, podcasts) para divulgação de conhecimentos científicos e resultados de pesquisa, tendo em vista seu contexto de produção, os elementos e a construção composicional dos roteiros.'),
+('EF69LP38', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Estratégias de produção: planejamento e produção de apresentações orais', 'Organizar os dados e informações pesquisados em painéis ou slides de apresentação, levando em conta o contexto de produção, o tempo disponível, as características do gênero apresentação oral, a multissemiose, as mídias e tecnologias que serão utilizadas, ensaiar a apresentação, considerando também elementos paralinguísticos e cinésicos e proceder à exposição oral de resultados de estudos e pesquisas, no tempo determinado, a partir do planejamento e da definição de diferentes formas de uso da fala - memorizada, com apoio da leitura ou fala espontânea.'),
+('EF69LP39', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Estratégias de produção', 'Definir o recorte temático da entrevista e o entrevistado, levantar informações sobre o entrevistado e sobre o tema da entrevista, elaborar roteiro de perguntas, realizar entrevista, a partir do roteiro, abrindo possibilidades para fazer perguntas a partir da resposta, se o contexto permitir, tomar nota, gravar ou salvar a entrevista e usar adequadamente as informações obtidas, de acordo com os objetivos estabelecidos.'),
+('EF69LP40', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção composicional', 'Analisar, em gravações de seminários, conferências rápidas, trechos de palestras, dentre outros, a construção composicional dos gêneros de apresentação – abertura/saudação, introdução ao tema, apresentação do plano de exposição, desenvolvimento dos conteúdos, por meio do encadeamento de temas e subtemas (coesão temática), síntese final e/ou conclusão, encerramento –, os elementos paralinguísticos (tais como: tom e volume da voz, pausas e hesitações – que, em geral, devem ser minimizadas –, modulação de voz e entonação, ritmo, respiração etc.) e cisnéticos (tais como: postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia, modulação de voz e entonação, sincronia da fala com ferramenta de apoio etc.), para melhor performar apresentações orais no campo da divulgação do conhecimento.'),
+('EF69LP41', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Usar adequadamente ferramentas de apoio a apresentações orais', 'Usar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade de texto (e imagem) por slide, usando progressivamente e de forma harmônica recursos mais sofisticados como efeitos de transição, slides mestres, layouts personalizados etc.'),
+('EF69LP42', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Construção composicional e estilo', 'Analisar a construção composicional dos textos pertencentes a gêneros relacionados à divulgação de conhecimentos: título, (olho), introdução, divisão do texto em subtítulos, imagens ilustrativas de conceitos, relações, ou resultados complexos (fotos, ilustrações, esquemas, gráficos, infográficos, diagramas, figuras, tabelas, mapas) etc., exposição, contendo definições, descrições, comparações, enumerações, exemplificações e remissões a conceitos e relações por meio de notas de rodapé, boxes ou links; ou título, contextualização do campo, ordenação temporal ou temática por tema ou subtema, intercalação de trechos verbais com fotos, ilustrações, áudios, vídeos etc. e reconhecer traços da linguagem dos textos de divulgação científica, fazendo uso consciente das estratégias de impessoalização da linguagem (ou de pessoalização, se o tipo de publicação e objetivos assim o demandarem, como em alguns podcasts e vídeos de divulgação científica), 3ª pessoa, presente atemporal, recurso à citação, uso de vocabulário técnico/especializado etc., como forma de ampliar suas capacidades de compreensão e produção de textos nesses gêneros.'),
+('EF69LP43', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Marcas linguísticas', 'Identificar e utilizar os modos de introdução de outras vozes no texto – citação literal e sua formatação e paráfrase –, as pistas linguísticas responsáveis por introduzir no texto a posição do autor e dos outros autores citados ("Segundo X; De acordo com Y; De minha/nossa parte, penso/amos que"...) e os elementos de normatização (tais como as regras de inclusão e formatação de citações e paráfrases, de organização de referências bibliográficas) em textos científicos, desenvolvendo reflexão sobre o modo como a intertextualidade e a retextualização ocorrem nesses textos.');
+
+-- ============================================================
+-- CAMPO ARTÍSTICO-LITERÁRIO - 6º AO 9º ANO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF69LP44', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução das condições de produção, circulação e recepção', 'Inferir a presença de valores sociais, culturais e humanos e de diferentes visões de mundo, em textos literários, reconhecendo nesses textos formas de estabelecer múltiplos olhares sobre as identidades, sociedades e culturas e considerando a autoria e o contexto social e histórico de sua produção.'),
+('EF69LP45', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Posicionar-se criticamente em relação a textos pertencentes a gêneros como quarta-capa, programa (de teatro, dança, exposição etc.), sinopse, resenha crítica, comentário em blog/vlog cultural etc., para selecionar obras literárias e outras manifestações artísticas (cinema, teatro, exposições, espetáculos, CDs, DVDs etc.), diferenciando as sequências descritivas e avaliativas e reconhecendo-os como gêneros que apoiam a escolha do livro ou produção cultural e consultando-os no momento de fazer escolhas, quando for o caso.'),
+('EF69LP46', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Participar de práticas de compartilhamento de leitura/recepção de obras literárias/ manifestações artísticas, como rodas de leitura, clubes de leitura, eventos de contação de histórias, de leituras dramáticas, de apresentações teatrais, musicais e de filmes, cineclubes, festivais de vídeo, saraus, slams, canais de booktubers, redes sociais temáticas (de leitores, de cinéfilos, de música etc.), dentre outros, tecendo, quando possível, comentários de ordem estética e afetiva e justificando suas apreciações, escrevendo comentários e resenhas para jornais, blogs e redes sociais e utilizando formas de expressão das culturas juvenis, tais como, vlogs e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, fanfics, fanzines, e-zines, fanvídeos, fanclipes, posts em fanpages, trailer honesto, vídeo-minuto, dentre outras possibilidades de práticas de apreciação e de manifestação da cultura de fãs.'),
+('EF69LP47', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos', 'Analisar, em textos narrativos ficcionais, as diferentes formas de composição próprias de cada gênero, os recursos coesivos que constroem a passagem do tempo e articulam suas partes, a escolha lexical típica de cada gênero para a caracterização dos cenários e dos personagens e os efeitos de sentido decorrentes dos tempos verbais, dos tipos de discurso, dos verbos de enunciação e das variedades linguísticas (no discurso direto, se houver) empregados, identificando o enredo e o foco narrativo e percebendo como se estrutura a narrativa nos diferentes gêneros e os efeitos de sentido decorrentes do foco narrativo típico de cada gênero, da caracterização dos espaços físico e psicológico e dos tempos cronológico e psicológico, das diferentes vozes no texto (do narrador, de personagens em discurso direto e indireto), do uso de pontuação expressiva, palavras e expressões conotativas e processos figurativos e do uso de recursos linguístico-gramaticais próprios a cada gênero narrativo.'),
+('EF69LP48', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos', 'Interpretar, em poemas, efeitos produzidos pelo uso de recursos expressivos sonoros (estrofação, rimas, aliterações etc), semânticos (figuras de linguagem, por exemplo), gráfico-espacial (distribuição da mancha gráfica no papel), imagens e sua relação com o texto verbal.'),
+('EF69LP49', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Adesão às práticas de leitura', 'Mostrar-se interessado e envolvido pela leitura de livros de literatura e por outras produções culturais do campo e receptivo a textos que rompam com seu universo de expectativas, que representem um desafio em relação às suas possibilidades atuais e suas experiências anteriores de leitura, apoiando-se nas marcas linguísticas, em seu conhecimento sobre os gêneros e a temática e nas orientações dadas pelo professor.'),
+('EF69LP50', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Relação entre textos', 'Elaborar texto teatral, a partir da adaptação de romances, contos, mitos, narrativas de enigma e de aventura, novelas, biografias romanceadas, crônicas, dentre outros, indicando as rubricas para caracterização do cenário, do espaço, do tempo; explicitando a caracterização física e psicológica dos personagens e dos seus modos de ação; reconfigurando a inserção do discurso direto e dos tipos de narrador; explicitando as marcas de variação linguística (dialetos, registros e jargões) e retextualizando o tratamento da temática.'),
+('EF69LP51', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Consideração das condições de produção', 'Engajar-se ativamente nos processos de planejamento, textualização, revisão/ edição e reescrita, tendo em vista as restrições temáticas, composicionais e estilísticas dos textos pretendidos e as configurações da situação de produção - o leitor pretendido, o suporte, o contexto de circulação do texto, as finalidades etc. - e considerando a imaginação, a estesia e a verossimilhança próprias ao texto literário.'),
+('EF69LP52', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Produção de textos orais', 'Representar cenas ou textos dramáticos, considerando, na caracterização dos personagens, os aspectos linguísticos e paralinguísticos das falas (timbre e tom de voz, pausas e hesitações, entonação e expressividade, variedades e registros linguísticos), os gestos e os deslocamentos no espaço cênico, o figurino e a maquiagem e elaborando as rubricas indicadas pelo autor por meio do cenário, da trilha sonora e da exploração dos modos de interpretação.'),
+('EF69LP53', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Produção de textos orais', 'Ler em voz alta textos literários diversos - como contos de amor, de humor, de suspense, de terror; crônicas líricas, humorísticas, críticas; bem como leituras orais capituladas (compartilhadas ou não com o professor) de livros de maior extensão, como romances, narrativas de enigma, narrativas de aventura, literatura infantojuvenil, - contar/recontar histórias tanto da tradição oral (causos, contos de esperteza, contos de animais, contos de amor, contos de encantamento, piadas, dentre outros) quanto da tradição literária escrita, expressando a compreensão e interpretação do texto por meio de uma leitura ou fala expressiva e fluente, que respeite o ritmo, as pausas, as hesitações, a entonação indicados tanto pela pontuação quanto por outros recursos gráfico-editoriais, como negritos, itálicos, caixa-alta, ilustrações etc., gravando essa leitura ou esse conto/reconto, seja para análise posterior, seja para produção de audiobooks de textos literários diversos ou de podcasts de leituras dramáticas com ou sem efeitos especiais e ler e/ou declamar poemas diversos, tanto de forma livre quanto de forma fixa (como quadras, sonetos, liras, haicais etc.), empregando os recursos linguísticos, paralinguísticos e cinésicos necessários aos efeitos de sentido pretendidos, como o ritmo e a entonação, o emprego de pausas e prolongamentos, o tom e o timbre vocais, bem como eventuais recursos de gestualidade e pantomima que convenham ao gênero poético e à situação de compartilhamento em questão.'),
+('EF69LP54', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Recursos linguísticos e semióticos que operam nos textos pertencentes aos gêneros literários', 'Analisar os efeitos de sentido decorrentes da interação entre os elementos linguísticos e os recursos paralinguísticos e cinésicos, como as variações no ritmo, as modulações no tom de voz, as pausas, as manipulações do estrato sonoro da linguagem, obtidos por meio da estrofação, das rimas e de figuras de linguagem como as aliterações, as assonâncias, as onomatopeias, dentre outras, a postura corporal e a gestualidade, na declamação de poemas, apresentações musicais e teatrais, tanto em gêneros em prosa quanto nos gêneros poéticos, os efeitos de sentido decorrentes do emprego de figuras de linguagem, tais como comparação, metáfora, personificação, metonímia, hipérbole, eufemismo, ironia, paradoxo e antítese e os efeitos de sentido decorrentes do emprego de palavras e expressões denotativas e conotativas (adjetivos, locuções adjetivas, orações subordinadas adjetivas etc.), que funcionam como modificadores, percebendo sua função na caracterização dos espaços, tempos, personagens e ações próprios de cada gênero narrativo.');
+
+-- ============================================================
+-- TODOS OS CAMPOS DE ATUAÇÃO - 6º AO 9º ANO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF69LP55', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Variação linguística', 'Reconhecer as variedades da língua falada, o conceito de norma-padrão e o de preconceito linguístico.'),
+('EF69LP56', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Variação linguística', 'Fazer uso consciente e reflexivo de regras e normas da norma-padrão em situações de fala e escrita nas quais ela deve ser usada.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - 6º E 7º ANOS
+-- CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+
+-- 6º ANO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF06LP01', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos', 'Reconhecer a impossibilidade de uma neutralidade absoluta no relato de fatos e identificar diferentes graus de parcialidade/ imparcialidade dados pelo recorte feito e pelos efeitos de sentido advindos de escolhas feitas pelo autor, de forma a poder desenvolver uma atitude crítica frente aos textos jornalísticos e tornar-se consciente das escolhas feitas enquanto produtor de textos.'),
+('EF06LP02', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital', 'Estabelecer relação entre os diferentes gêneros jornalísticos, compreendendo a centralidade da notícia.');
+
+-- 7º ANO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF07LP01', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos', 'Distinguir diferentes propostas editoriais - sensacionalismo, jornalismo investigativo etc. -, de forma a identificar os recursos utilizados para impactar/chocar o leitor que podem comprometer uma análise crítica da notícia e do fato noticiado.'),
+('EF07LP02', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Leitura', 'Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital', 'Comparar notícias e reportagens sobre um mesmo fato divulgadas em diferentes mídias, analisando as especificidades das mídias, os processos de (re)elaboração dos textos e a convergência das mídias em notícias ou reportagens multissemióticas.');
+
+-- 6º E 7º ANOS - CAMPO JORNALÍSTICO-MIDIÁTICO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP01', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Analisar a estrutura e funcionamento dos hiperlinks em textos noticiosos publicados na Web e vislumbrar possibilidades de uma escrita hipertextual.'),
+('EF67LP02', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Explorar o espaço reservado ao leitor nos jornais, revistas, impressos e on-line, sites noticiosos etc., destacando notícias, fotorreportagens, entrevistas, charges, assuntos, temas, debates em foco, posicionando-se de maneira ética e respeitosa frente a esses textos e opiniões a eles relacionadas, e publicar notícias, notas jornalísticas, fotorreportagem de interesse geral nesses espaços do leitor.'),
+('EF67LP03', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura', 'Comparar informações sobre um mesmo fato divulgadas em diferentes veículos e mídias, analisando e avaliando a confiabilidade.'),
+('EF67LP04', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Distinção de fato e opinião', 'Distinguir, em segmentos descontínuos de textos, fato da opinião enunciada em relação a esse mesmo fato.'),
+('EF67LP05', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura: identificação de teses e argumentos', 'Identificar e avaliar teses/opiniões/posicionamentos explícitos e argumentos em textos argumentativos (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), manifestando concordância ou discordância.'),
+('EF67LP06', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Identificar os efeitos de sentido provocados pela seleção lexical, topicalização de elementos e seleção e hierarquização de informações, uso de 3ª pessoa etc.'),
+('EF67LP07', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Identificar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e perceber seus efeitos de sentido.'),
+('EF67LP08', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Exploração da multissemiose', 'Identificar os efeitos de sentido devidos à escolha de imagens estáticas, sequenciação ou sobreposição de imagens, definição de figura/fundo, ângulo, profundidade e foco, cores/tonalidades, relação com o escrito (relações de reiteração, complementação ou oposição) etc. em notícias, reportagens, fotorreportagens, foto-denúncias, memes, gifs, anúncios publicitários e propagandas publicados em jornais, revistas, sites na internet etc.'),
+('EF67LP09', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de produção: planejamento de textos informativos', 'Planejar notícia impressa e para circulação em outras mídias (rádio ou TV/vídeo), tendo em vista as condições de produção, do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc. -, a partir da escolha do fato a ser noticiado (de relevância para a turma, escola ou comunidade), do levantamento de dados e informações sobre o fato - que pode envolver entrevistas com envolvidos ou com especialistas, consultas a fontes, análise de documentos, cobertura de eventos etc.-, do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar etc. e a previsão de uma estrutura hipertextual (no caso de publicação em sites ou blogs noticiosos).'),
+('EF67LP10', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Textualização, tendo em vista suas condições de produção, as características do gênero em questão, o estabelecimento de coesão, adequação à norma-padrão e o uso adequado de ferramentas de edição', 'Produzir notícia impressa tendo em vista características do gênero - título ou manchete com verbo no tempo presente, linha fina (opcional), lide, progressão dada pela ordem decrescente de importância dos fatos, uso de 3ª pessoa, de palavras que indicam precisão -, e o estabelecimento adequado de coesão e produzir notícia para TV, rádio e internet, tendo em vista, além das características do gênero, os recursos de mídias disponíveis e o manejo de recursos de captação e edição de áudio e imagem.'),
+('EF67LP11', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de produção: planejamento de textos argumentativos e apreciativos', 'Planejar resenhas, vlogs, vídeos e podcasts variados, e textos e vídeos de apresentação e apreciação próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), dentre outros, tendo em vista as condições de produção do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc. -, a partir da escolha de uma produção ou evento cultural para analisar - livro, filme, série, game, canção, videoclipe, fanclipe, show, saraus, slams etc. - da busca de informação sobre a produção ou evento escolhido, da síntese de informações sobre a obra/evento e do elenco/seleção de aspectos, elementos ou recursos que possam ser destacados positiva ou negativamente ou da roteirização do passo a passo do game para posterior gravação dos vídeos.'),
+('EF67LP12', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Textualização de textos argumentativos e apreciativos', 'Produzir resenhas críticas, vlogs, vídeos, podcasts variados e produções e gêneros próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), que apresentem/descrevam e/ou avaliem produções culturais (livro, filme, série, game, canção, disco, videoclipe etc.) ou evento (show, sarau, slam etc.), tendo em vista o contexto de produção dado, as características do gênero, os recursos das mídias envolvidas e a textualização adequada dos textos e/ou produções.'),
+('EF67LP13', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Produção e edição de textos publicitários', 'Produzir, revisar e editar textos publicitários, levando em conta o contexto de produção dado, explorando recursos multissemióticos, relacionando elementos verbais e visuais, utilizando adequadamente estratégias discursivas de persuasão e/ou convencimento e criando título ou slogan que façam o leitor motivar-se a interagir com o texto produzido e se sinta atraído pelo serviço, ideia ou produto em questão.'),
+('EF67LP14', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Planejamento e produção de entrevistas orais', 'Definir o contexto de produção da entrevista (objetivos, o que se pretende conseguir, porque aquele entrevistado etc.), levantar informações sobre o entrevistado e sobre o acontecimento ou tema em questão, preparar o roteiro de perguntar e realizar entrevista oral com envolvidos ou especialistas relacionados com o fato noticiado ou com o tema em pauta, usando roteiro previamente elaborado e formulando outras perguntas a partir das respostas dadas e, quando for o caso, selecionar partes, transcrever e proceder a uma edição escrita do texto, adequando-o a seu contexto de publicação, à construção composicional do gênero e garantindo a relevância das informações mantidas e a continuidade temática.');
+
+-- ============================================================
+-- 6º E 7º ANOS - CAMPO DE ATUAÇÃO NA VIDA PÚBLICA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP15', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégias e procedimentos de leitura em textos legais e normativos', 'Identificar a proibição imposta ou o direito garantido, bem como as circunstâncias de sua aplicação, em artigos relativos a normas, regimentos escolares, regimentos e estatutos da sociedade civil, regulamentações para o mercado publicitário, Código de Defesa do Consumidor, Código Nacional de Trânsito, ECA, Constituição, dentre outros.'),
+('EF67LP16', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Contexto de produção, circulação e recepção de textos e práticas relacionadas à defesa de direitos e à participação social', 'Explorar e analisar espaços de reclamação de direitos e de envio de solicitações (tais como ouvidorias, SAC, canais ligados a órgãos públicos, plataformas do consumidor, plataformas de reclamação), bem como de textos pertencentes a gêneros que circulam nesses espaços, reclamação ou carta de reclamação, solicitação ou carta de solicitação, como forma de ampliar as possibilidades de produção desses textos em casos que remetam a reivindicações que envolvam a escola, a comunidade ou algum de seus membros como forma de se engajar na busca de solução de problemas pessoais, dos outros e coletivos.'),
+('EF67LP17', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação entre contexto de produção e características composicionais e estilísticas dos gêneros (carta de solicitação, carta de reclamação, petição on-line, carta aberta, abaixo-assinado, proposta etc.)', 'Analisar, a partir do contexto de produção, a forma de organização das cartas de solicitação e de reclamação (datação, forma de início, apresentação contextualizada do pedido ou da reclamação, em geral, acompanhada de explicações, argumentos e/ou relatos do problema, fórmula de finalização mais ou menos cordata, dependendo do tipo de carta e subscrição) e algumas das marcas linguísticas relacionadas à argumentação, explicação ou relato de fatos, como forma de possibilitar a escrita fundamentada de cartas como essas ou de postagens em canais próprios de reclamações e solicitações em situações que envolvam questões relativas à escola, à comunidade ou a algum dos seus membros.'),
+('EF67LP18', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Apreciação e réplica', 'Identificar o objeto da reclamação e/ou da solicitação e sua sustentação, explicação ou justificativa, de forma a poder analisar a pertinência da solicitação ou justificação.'),
+('EF67LP19', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégia de produção: planejamento de textos reivindicatórios ou propositivos', 'Realizar levantamento de questões, problemas que requeiram a denúncia de desrespeito a direitos, reivindicações, reclamações, solicitações que contemplem a comunidade escolar ou algum de seus membros e examinar normas e legislações.');
+
+-- ============================================================
+-- 6º E 7º ANOS - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP20', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Curadoria de informação', 'Realizar pesquisa, a partir de recortes e questões definidos previamente, usando fontes indicadas e abertas.'),
+('EF67LP21', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita: textualização, revisão e edição', 'Divulgar resultados de pesquisas por meio de apresentações orais, painéis, artigos de divulgação científica, verbetes de enciclopédia, podcasts científicos etc.'),
+('EF67LP22', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita: textualização, revisão e edição', 'Produzir resumos, a partir das notas e/ou esquemas feitos, com o uso adequado de paráfrases e citações.'),
+('EF67LP23', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Conversação espontânea', 'Respeitar os turnos de fala, na participação em conversações e em discussões ou atividades coletivas, na sala de aula e na escola e formular perguntas coerentes e adequadas em momentos oportunos em situações de aulas, apresentação oral, seminário etc.'),
+('EF67LP24', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Oralidade', 'Procedimentos de apoio à compreensão/Tomada de nota', 'Tomar nota de aulas, apresentações orais, entrevistas (ao vivo, áudio, TV, vídeo), identificando e hierarquizando as informações principais, tendo em vista apoiar o estudo e a produção de sínteses e reflexões pessoais ou outros objetivos em questão.'),
+('EF67LP25', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Textualização/Progressão temática', 'Reconhecer e utilizar os critérios de organização tópica (do geral para o específico, do específico para o geral etc.), as marcas linguísticas dessa organização (marcadores de ordenação e enumeração, de explicação, definição e exemplificação, por exemplo) e os mecanismos de paráfrase, de maneira a organizar mais adequadamente a coesão e a progressão temática de seus textos.'),
+('EF67LP26', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Textualização', 'Reconhecer a estrutura de hipertexto em textos de divulgação científica e proceder à remissão a conceitos e relações por meio de notas de rodapés ou boxes.');
+
+-- ============================================================
+-- 6º E 7º ANOS - CAMPO ARTÍSTICO-LITERÁRIO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP27', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Analisar, entre os textos literários e entre estes e outras manifestações artísticas (como cinema, teatro, música, artes visuais e midiáticas), referências explícitas ou implícitas a outros textos, quanto aos temas, personagens e recursos literários e semióticos.'),
+('EF67LP28', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Estratégias de leitura/Apreciação e réplica', 'Ler, de forma autónoma, e compreender - selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes -, romances infantojuvenis, contos populares, contos de terror, lendas brasileiras, indígenas e africanas, narrativas de aventuras, narrativas de enigma, mitos, crônicas, autobiografias, histórias em quadrinhos, mangás, poemas de forma livre e fixa (como sonetos e cordéis), vídeo-poemas, poemas visuais, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores.'),
+('EF67LP29', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Leitura', 'Reconstrução da textualidade/Efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos', 'Identificar, em texto dramático, personagem, ato, cena, fala e indicações cênicas e a organização do texto: enredo, conflitos, ideias principais, pontos de vista, universos de referência.'),
+('EF67LP30', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Construção da textualidade', 'Criar narrativas ficcionais, tais como contos populares, contos de suspense, mistério, terror, humor, narrativas de enigma, crônicas, histórias em quadrinhos, dentre outros, que utilizem cenários e personagens realistas ou de fantasia, observando os elementos da estrutura narrativa próprios ao gênero pretendido, tais como enredo, personagens, tempo, espaço e narrador, utilizando tempos verbais adequados à narração de fatos passados, empregando conhecimentos sobre diferentes modos de se iniciar uma história e de inserir os discursos direto e indireto.'),
+('EF67LP31', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Produção de textos', 'Relação entre textos', 'Criar poemas compostos por versos livres e de forma fixa (como quadras e sonetos), utilizando recursos visuais, semânticos e sonoros, tais como cadências, ritmos e rimas, e poemas visuais e vídeo-poemas, explorando as relações entre imagem e texto verbal, a distribuição da mancha gráfica (poema visual) e outros recursos visuais e sonoros.');
+
+-- ============================================================
+-- 6º E 7º ANOS - TODOS OS CAMPOS DE ATUAÇÃO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP32', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Fono-ortografia', 'Escrever palavras com correção ortográfica, obedecendo as convenções da língua escrita.'),
+('EF67LP33', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Elementos notacionais da escrita', 'Pontuar textos adequadamente.'),
+('EF67LP34', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Léxico/morfologia', 'Formar antônimos com acréscimo de prefixos que expressam noção de negação.'),
+('EF67LP35', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Léxico/morfologia', 'Distinguir palavras derivadas por acréscimo de afixos e palavras compostas.');
+
+-- 6º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF06LP03', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Léxico/morfologia', 'Analisar diferenças de sentido entre palavras de uma série sinonímica.'),
+('EF06LP04', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Analisar a função e as flexões de substantivos e adjetivos e de verbos nos modos Indicativo, Subjuntivo e Imperativo: afirmativo e negativo.'),
+('EF06LP05', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar os efeitos de sentido dos modos verbais, considerando o gênero textual e a intenção comunicativa.'),
+('EF06LP06', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Empregar, adequadamente, as regras de concordância nominal (relações entre os substantivos e seus determinantes) e as regras de concordância verbal (relações entre o verbo e o sujeito simples e composto).'),
+('EF06LP07', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em textos, períodos compostos por orações separadas por vírgula sem a utilização de conectivos, nomeando-os como períodos compostos por coordenação.'),
+('EF06LP08', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em texto ou sequência textual, orações como unidades constituídas em torno de um núcleo verbal e períodos como conjunto de orações conectadas.'),
+('EF06LP09', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Classificar, em texto ou sequência textual, os períodos simples compostos.'),
+('EF06LP10', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar sintagmas nominais e verbais como constituintes imediatos da oração.'),
+('EF06LP11', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Elementos notacionais da escrita/morfossintaxe', 'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: tempos verbais, concordância nominal e verbal, regras ortográficas, pontuação etc.'),
+('EF06LP12', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Utilizar, ao produzir texto, recursos de coesão referencial (nome e pronomes), recursos semânticos de sinonímia, antonímia e homonímia e mecanismos de representação de diferentes vozes (discurso direto e indireto).');
+
+-- 7º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF07LP03', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Léxico/morfologia', 'Formar, com base em palavras primitivas, palavras derivadas com os prefixos e sufixos mais produtivos no português.'),
+('EF07LP04', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Reconhecer, em textos, o verbo como o núcleo das orações.'),
+('EF07LP05', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em orações de textos lidos ou de produção própria, verbos de predicação completa e incompleta: intransitivos e transitivos.'),
+('EF07LP06', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Empregar as regras básicas de concordância nominal e verbal em situações comunicativas e na produção de textos.'),
+('EF07LP07', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos ou de produção própria, a estrutura básica da oração: sujeito, predicado, complemento (objetos direto e indireto).'),
+('EF07LP08', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos ou de produção própria, adjetivos que ampliam o sentido do substantivo sujeito ou complemento verbal.'),
+('EF07LP09', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos ou de produção própria, advérbios e locuções adverbiais que ampliam o sentido do verbo núcleo da oração.'),
+('EF07LP10', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Elementos notacionais da escrita/morfossintaxe', 'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: modos e tempos verbais, concordância nominal e verbal, pontuação etc.'),
+('EF07LP11', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em textos lidos ou de produção própria, períodos compostos nos quais duas orações são conectadas por vírgula, ou por conjunções que expressem soma de sentido (conjunção "e") ou oposição de sentidos (conjunções "mas", "porém").'),
+('EF07LP12', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Reconhecer recursos de coesão referencial: substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos - pessoais, possessivos, demonstrativos).'),
+('EF07LP13', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Estabelecer relações entre partes do texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos - pessoais, possessivos, demonstrativos), que contribuem para a continuidade do texto.'),
+('EF07LP14', 'Ensino Fundamental', 7, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Modalização', 'Identificar, em textos, os efeitos de sentido do uso de estratégias de modalização e argumentatividade.');
+
+-- 6º E 7º ANOS - TODOS OS CAMPOS (continuação)
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF67LP36', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Utilizar, ao produzir texto, recursos de coesão referencial (léxica e pronominal) e sequencial e outros recursos expressivos adequados ao gênero textual.'),
+('EF67LP37', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sequências textuais', 'Analisar, em diferentes textos, os efeitos de sentido decorrentes do uso de recursos linguístico-discursivos de prescrição, causalidade, sequências descritivas e expositivas e ordenação de eventos.'),
+('EF67LP38', 'Ensino Fundamental', 6, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Figuras de linguagem', 'Analisar os efeitos de sentido do uso de figuras de linguagem, como comparação, metáfora, metonímia, personificação, hipérbole, dentre outras.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - 8º E 9º ANOS
+-- CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+
+-- 8º E 9º ANOS - CAMPO JORNALÍSTICO-MIDIÁTICO
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF89LP01', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos/Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital', 'Analisar os interesses que movem o campo jornalístico, os efeitos das novas tecnologias no campo e as condições que fazem da informação uma mercadoria, de forma a poder desenvolver uma atitude crítica frente aos textos jornalísticos.'),
+('EF89LP02', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura: apreender os sentidos globais do texto/Apreciação e réplica', 'Analisar diferentes práticas (curtir, compartilhar, comentar, curar etc.) e textos pertencentes a diferentes gêneros da cultura digital (meme, gif, comentário, charge digital etc.) envolvidos no trato com a informação e opinião, de forma a possibilitar uma presença mais crítica e ética nas redes.'),
+('EF89LP03', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura: apreender os sentidos globais do texto/Apreciação e réplica', 'Analisar textos de opinião (artigos de opinião, editoriais, cartas de leitores, comentários, posts de blog e de redes sociais, charges, memes, gifs etc.) e posicionar-se de forma crítica e fundamentada, ética e respeitosa frente a fatos e opiniões relacionados a esses textos.'),
+('EF89LP04', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Estratégia de leitura: apreender os sentidos globais do texto/Apreciação e réplica', 'Identificar e avaliar teses/opiniões/posicionamentos explícitos e implícitos, argumentos e contra-argumentos em textos argumentativos do campo (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), posicionando-se frente à questão controversa de forma sustentada.'),
+('EF89LP05', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Analisar o efeito de sentido produzido pelo uso, em textos, de recurso a formas de apropriação textual (paráfrases, citações, discurso direto, indireto ou indireto livre).'),
+('EF89LP06', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido', 'Analisar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e seus efeitos de sentido.'),
+('EF89LP07', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Efeitos de sentido/Exploração da multissemiose', 'Analisar, em notícias, reportagens e peças publicitárias em várias mídias, os efeitos de sentido devidos ao tratamento e à composição dos elementos nas imagens em movimento, à performance, à montagem feita (ritmo, duração e sincronização entre as linguagens - complementaridades, interferências etc.) e ao ritmo, melodia, instrumentos e sampleamentos das músicas e efeitos sonoros.'),
+('EF89LP08', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégia de produção: planejamento de textos informativos', 'Planejar reportagem impressa e em outras mídias (rádio ou TV/vídeo, sites), tendo em vista as condições de produção do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc. - a partir da escolha do fato a ser aprofundado ou do tema a ser focado (de relevância para a turma, escola ou comunidade), do levantamento de dados e informações sobre o fato ou tema - que pode envolver entrevistas com envolvidos ou com especialistas, consultas a fontes diversas, análise de documentos, cobertura de eventos etc. -, do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar etc., da produção de infográficos, quando for o caso, e da organização hipertextual (no caso a publicação em sites ou blogs noticiosos ou mesmo de jornais impressos, por meio de boxes variados).'),
+('EF89LP09', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégia de produção: textualização de textos informativos', 'Produzir reportagem impressa, com título, linha fina (optativa), organização composicional (expositiva, interpretativa e/ou opinativa), progressão temática e uso de recursos linguísticos compatíveis com as escolhas feitas e reportagens multimidiáticas, tendo em vista as condições de produção, as características do gênero, os recursos e mídias disponíveis, sua organização hipertextual e o manejo adequado de recursos de captação e edição de áudio e imagem e adequação à norma-padrão.'),
+('EF89LP10', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégia de produção: planejamento de textos argumentativos e apreciativos', 'Planejar artigos de opinião, tendo em vista as condições de produção do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc. -, a partir da escolha do tema ou questão a ser discutido(a), da relevância para a turma, escola ou comunidade, do levantamento de dados e informações sobre a questão, de argumentos relacionados a diferentes posicionamentos em jogo, da definição - o que pode envolver consultas a fontes diversas, entrevistas com especialistas, análise de textos, organização esquemática das informações e argumentos - dos (tipos de) argumentos e estratégias que pretende utilizar para convencer os leitores.'),
+('EF89LP11', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de produção: planejamento, textualização, revisão e edição de textos publicitários', 'Produzir, revisar e editar peças e campanhas publicitárias, envolvendo o uso articulado e complementar de diferentes peças publicitárias: cartaz, banner, indoor, folheto, panfleto, anúncio de jornal/revista, para internet, spot, propaganda de rádio, TV, a partir da escolha da questão/problema/causa significativa para a escola e/ou a comunidade escolar, da definição do público-alvo, das peças que serão produzidas, das estratégias de persuasão e convencimento que serão utilizadas.'),
+('EF89LP12', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Estratégias de produção: planejamento e participação em debates regrados', 'Planejar coletivamente a realização de um debate sobre tema previamente definido, de interesse coletivo, com regras acordadas e planejar, em grupo, participação em debate a partir do levantamento de informações e argumentos que possam sustentar o posicionamento a ser defendido (o que pode envolver entrevistas com especialistas, consultas a fontes diversas, o registro das informações e dados obtidos etc.), tendo em vista as condições de produção do debate - perfil dos ouvintes e demais participantes, objetivos do debate, motivações para sua realização, argumentos e estratégias de convencimento mais eficazes etc. e participar de debates regrados, na condição de membro de uma equipe de debatedor, apresentador/mediador, espectador (com ou sem direito a perguntas), e/ou de juiz/avaliador, como forma de compreender o funcionamento do debate, e poder participar de forma convincente, ética, respeitosa e crítica e desenvolver uma atitude de respeito e diálogo para com as ideias divergentes.'),
+('EF89LP13', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Estratégias de produção: planejamento, realização e edição de entrevistas orais', 'Planejar entrevistas orais com pessoas ligadas ao fato noticiado, especialistas etc., como forma de obter dados e informações sobre os fatos cobertos sobre o tema ou questão discutida ou temáticas em estudo, levando em conta o gênero e seu contexto de produção, partindo do levantamento de informações sobre o entrevistado e sobre a temática e da elaboração de um roteiro de perguntas, garantindo a relevância das informações mantidas e a continuidade temática, realizar entrevista e fazer edição em áudio ou vídeo, incluindo uma contextualização inicial e uma fala de encerramento para publicação da entrevista isoladamente ou como parte integrante de reportagem multimidiática, adequando-a a seu contexto de publicação e garantindo a relevância das informações mantidas e a continuidade temática.'),
+('EF89LP14', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Argumentação: movimentos argumentativos, tipos de argumento e força argumentativa', 'Analisar, em textos argumentativos e propositivos, os movimentos argumentativos de sustentação, refutação e negociação e os tipos de argumentos, avaliando a força/tipo dos argumentos utilizados.'),
+('EF89LP15', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Argumentação: movimentos argumentativos, tipos de argumento e força argumentativa', 'Utilizar, nos debates, operadores argumentativos que marcam a defesa de ideia e de diálogo com a tese do outro: concordo, discordo, concordo parcialmente, do meu ponto de vista, na perspectiva aqui assumida etc.'),
+('EF89LP16', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Estilo/Modalização', 'Analisar a modalização realizada em textos noticiosos e argumentativos, por meio das modalidades apreciativas, viabilizadas por classes e estruturas gramaticais como adjetivos, locuções adjetivas, advérbios, locuções adverbiais, orações adjetivas e adverbiais, orações relativas restritivas e explicativas etc., de maneira a perceber a apreciação ideológica sobre os fatos noticiados ou as posições implícitas ou assumidas.');
+
+-- ============================================================
+-- 8º E 9º ANOS - CAMPO DE ATUAÇÃO NA VIDA PÚBLICA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF89LP17', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos legais e normativos', 'Relacionar textos e documentos legais e normativos de importância universal, nacional ou local que envolvam direitos, em especial, de crianças, adolescentes e jovens - tais como a Declaração dos Direitos Humanos, a Constituição Brasileira, o ECA -, e a regulamentação da organização escolar - por exemplo, regimento escolar -, a seus contextos de produção, reconhecendo e analisando possíveis motivações, finalidades e sua vinculação com experiências humanas e fatos históricos e sociais, como forma de ampliar a compreensão dos direitos e deveres, de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade (o outro tem direito a uma vida digna tanto quanto eu tenho).'),
+('EF89LP18', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Contexto de produção, circulação e recepção de textos e práticas relacionadas à defesa de direitos e à participação social', 'Explorar e analisar instâncias e canais de participação disponíveis na escola (conselho de escola, outros colegiados, grêmio livre), na comunidade (associações, coletivos, movimentos, etc.), no munícipio ou no país, incluindo formas de participação digital, como canais e plataformas de participação (como portal e-cidadania), serviços, portais e ferramentas de acompanhamentos do trabalho de políticos e de tramitação de leis, canais de educação política, bem como de propostas e proposições que circulam nesses canais, de forma a participar do debate de ideias e propostas na esfera social e a engajar-se com a busca de soluções para problemas ou questões que envolvam a vida da escola e da comunidade.'),
+('EF89LP19', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Relação entre contexto de produção e características composicionais e estilísticas dos gêneros', 'Analisar, a partir do contexto de produção, a forma de organização das cartas abertas, abaixo-assinados e petições on-line (identificação dos signatários, explicitação da reivindicação feita, acompanhada ou não de uma breve apresentação da problemática e/ou de justificativas que visam sustentar a reivindicação) e a proposição, discussão e aprovação de propostas políticas ou de soluções para problemas de interesse público, apresentadas ou lidas nos canais digitais de participação, identificando suas marcas linguísticas, como forma de possibilitar a escrita ou subscrição consciente de abaixo-assinados e textos dessa natureza e poder se posicionar de forma crítica e fundamentada frente às propostas.'),
+('EF89LP20', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Estratégias e procedimentos de leitura em textos reivindicatórios ou propositivos', 'Comparar propostas políticas e de solução de problemas, identificando o que se pretende fazer/implementar, por que (motivações, justificativas), para que (objetivos, benefícios e consequências esperados), como (ações e passos), quando etc. e a forma de avaliar a eficácia da proposta/solução, contrastando dados e informações de diferentes fontes, identificando coincidências, complementaridades e contradições, de forma a poder compreender e posicionar-se criticamente sobre os dados e informações usados em fundamentação de propostas e analisar a coerência entre os elementos, de forma a tomar decisões fundamentadas.'),
+('EF89LP21', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégia de produção: planejamento de textos reivindicatórios ou propositivos', 'Realizar enquetes e pesquisas de opinião, de forma a levantar prioridades, problemas a resolver ou propostas que possam contribuir para melhoria da escola ou da comunidade, caracterizar demanda/necessidade, documentando-a de diferentes maneiras por meio de diferentes procedimentos, gêneros e mídias e, quando for o caso, selecionar informações e dados relevantes de fontes pertinentes diversas (sites, impressos, vídeos etc.), avaliando a qualidade e a utilidade dessas fontes, que possam servir de contextualização e fundamentação de propostas, de forma a justificar a proposição de propostas, projetos culturais e ações de intervenção.'),
+('EF89LP22', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Escuta/Apreender o sentido geral dos textos/Apreciação e réplica/Produção/Proposta', 'Compreender e comparar as diferentes posições e interesses em jogo em uma discussão ou apresentação de propostas, avaliando a validade e força dos argumentos e as consequências do que está sendo proposto e, quando for o caso, formular e negociar propostas de diferentes naturezas relativas a interesses coletivos envolvendo a escola ou comunidade escolar.'),
+('EF89LP23', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Movimentos argumentativos e força dos argumentos', 'Analisar, em textos argumentativos, reivindicatórios e propositivos, os movimentos argumentativos utilizados (sustentação, refutação e negociação), avaliando a força dos argumentos utilizados.');
+
+-- ============================================================
+-- 8º E 9º ANOS - CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF89LP24', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Curadoria de informação', 'Realizar pesquisa, estabelecendo o recorte das questões, usando fontes abertas e confiáveis.'),
+('EF89LP25', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita: textualização, revisão e edição', 'Divulgar o resultado de pesquisas por meio de apresentações orais, verbetes de enciclopédias colaborativas, reportagens de divulgação científica, vlogs científicos, vídeos de diferentes tipos etc.'),
+('EF89LP26', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Estratégias de escrita: textualização, revisão e edição', 'Produzir resenhas, a partir das notas e/ou esquemas feitos, com o manejo adequado das vozes envolvidas (do resenhador, do autor da obra e, se for o caso, também dos autores citados na obra resenhada), por meio do uso de paráfrases, marcas do discurso reportado e citações.'),
+('EF89LP27', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Conversação espontânea', 'Tecer considerações e formular problematizações pertinentes, em momentos oportunos, em situações de aulas, apresentação oral, seminário etc.'),
+('EF89LP28', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Oralidade', 'Procedimentos de apoio à compreensão/Tomada de nota', 'Tomar nota de videoaulas, aulas digitais, apresentações multimídias, vídeos de divulgação científica, documentários e afins, identificando, em função dos objetivos, informações principais para apoio ao estudo e realizando, quando necessário, uma síntese final que destaque e reorganize os pontos ou conceitos centrais e suas relações e que, em alguns casos, seja acompanhada de reflexões pessoais, que podem conter dúvidas, questionamentos, considerações etc.'),
+('EF89LP29', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Textualização/Progressão temática', 'Utilizar e perceber mecanismos de progressão temática, tais como retomadas anafóricas ("que, cujo, onde", pronomes do caso reto e oblíquos, pronomes demonstrativos, nomes correferentes etc.), catáforas (remetendo para adiante ao invés de retomar o já dito), uso de organizadores textuais, de coesivos etc., e analisar os mecanismos de reformulação e paráfrase utilizados nos textos de divulgação do conhecimento.'),
+('EF89LP30', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Textualização', 'Analisar a estrutura de hipertexto e hiperlinks em textos de divulgação científica que circulam na Web e proceder à remissão a conceitos e relações por meio de links.'),
+('EF89LP31', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Modalização', 'Analisar e utilizar modalização epistêmica, isto é, modos de indicar uma avaliação sobre o valor de verdade e as condições de verdade de uma proposição, tais como os asseverativos – quando se concorda com ("realmente, evidentemente, naturalmente, efetivamente, claro, certo, lógico, sem dúvida" etc.) ou discorda de ("de jeito nenhum, de forma alguma") uma ideia; e os quase-asseverativos, que indicam que se considera o conteúdo como quase certo ("talvez, assim, possivelmente, provavelmente, eventualmente").');
+
+-- ============================================================
+-- 8º E 9º ANOS - CAMPO ARTÍSTICO-LITERÁRIO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF89LP32', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Analisar os efeitos de sentido decorrentes do uso de mecanismos de intertextualidade (referências, alusões, retomadas) entre os textos literários, entre esses textos literários e outras manifestações artísticas (cinema, teatro, artes visuais e midiáticas, música), quanto aos temas, personagens, estilos, autores etc., e entre o texto original e paródias, paráfrases, pastiches, trailer honesto, vídeos-minuto, vidding, dentre outros.'),
+('EF89LP33', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Estratégias de leitura/Apreciação e réplica', 'Ler, de forma autônoma, e compreender - selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes - romances, contos contemporâneos, minicontos, fábulas contemporâneas, romances juvenis, biografias romanceadas, novelas, crônicas visuais, narrativas de ficção científica, narrativas de suspense, poemas de forma livre e fixa (como haicai), poema concreto, ciberpoema, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores.'),
+('EF89LP34', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Reconstrução da textualidade e compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos', 'Analisar a organização de texto dramático apresentado em teatro, televisão, cinema, identificando e percebendo os sentidos decorrentes dos recursos linguísticos e semióticos que sustentam sua realização como peça teatral, novela, filme etc.'),
+('EF89LP35', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Construção da textualidade', 'Criar contos ou crônicas (em especial, líricas), crônicas visuais, minicontos, narrativas de aventura e de ficção científica, dentre outros, com temáticas próprias ao gênero, usando os conhecimentos sobre os constituintes estruturais e recursos expressivos típicos dos gêneros narrativos pretendidos, e, no caso de produção em grupo, ferramentas de escrita colaborativa.'),
+('EF89LP36', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Relação entre textos', 'Parodiar poemas conhecidos da literatura e criar textos em versos (como poemas concretos, ciberpoemas, haicais, liras, microrroterios, lambe-lambes e outros tipos de poemas), explorando o uso de recursos sonoros e semânticos (como figuras de linguagem e jogos de palavras) e visuais (como relações entre imagem e texto verbal e distribuição da mancha gráfica), de forma a propiciar diferentes efeitos de sentido.');
+
+-- ============================================================
+-- 8º E 9º ANOS - TODOS OS CAMPOS DE ATUAÇÃO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF89LP37', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Figuras de linguagem', 'Analisar os efeitos de sentido do uso de figuras de linguagem como ironia, eufemismo, antítese, aliteração, assonância, dentre outras.');
+
+-- 8º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF08LP01', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos/Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital', 'Identificar e comparar as várias editorias de jornais impressos e digitais e de sites noticiosos, de forma a refletir sobre os tipos de fato que são noticiados e comentados, as escolhas sobre o que noticiar e o que não noticiar e o destaque/enfoque dado e a fidedignidade da informação.'),
+('EF08LP02', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Justificar diferenças ou semelhanças no tratamento dado a uma mesma informação veiculada em textos diferentes, consultando sites e serviços de checadores de fatos.'),
+('EF08LP03', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Produção de textos', 'Textualização de textos argumentativos e apreciativos', 'Produzir artigos de opinião, tendo em vista o contexto de produção dado, a defesa de um ponto de vista, utilizando argumentos e contra-argumentos e articuladores de coesão que marquem relações de oposição, contraste, exemplificação, ênfase.'),
+('EF08LP04', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Fono-ortografia', 'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: ortografia, regências e concordâncias nominal e verbal, modos e tempos verbais, pontuação etc.'),
+('EF08LP05', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Léxico/morfologia', 'Analisar processos de formação de palavras por composição (aglutinação e justaposição), apropriando-se de regras básicas de uso do hífen em palavras compostas.'),
+('EF08LP06', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos ou de produção própria, os termos constitutivos da oração (sujeito e seus modificadores, verbo e seus complementos e modificadores).'),
+('EF08LP07', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Diferenciar, em textos lidos ou de produção própria, complementos diretos e indiretos de verbos transitivos, apropriando-se da regência de verbos de uso frequente.'),
+('EF08LP08', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos ou de produção própria, verbos na voz ativa e na voz passiva, interpretando os efeitos de sentido de sujeito ativo e passivo (agente da passiva).'),
+('EF08LP09', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Interpretar efeitos de sentido de modificadores (adjuntos adnominais - artigos definido ou indefinido, adjetivos, expressões adjetivas) em substantivos com função de sujeito ou de complemento verbal, usando-os para enriquecer seus próprios textos.'),
+('EF08LP10', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Interpretar, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais - advérbios e expressões adverbiais), usando-os para enriquecer seus próprios textos.'),
+('EF08LP11', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em textos lidos ou de produção própria, agrupamento de orações em períodos, diferenciando coordenação de subordinação.'),
+('EF08LP12', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em textos lidos, orações subordinadas com conjunções de uso frequente, incorporando-as às suas próprias produções.'),
+('EF08LP13', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Inferir efeitos de sentido decorrentes do uso de recursos de coesão sequencial: conjunções e articuladores textuais.'),
+('EF08LP14', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Utilizar, ao produzir texto, recursos de coesão sequencial (articuladores) e referencial (léxica e pronominal), construções passivas e impessoais, discurso direto e indireto e outros recursos expressivos adequados ao gênero textual.'),
+('EF08LP15', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Estabelecer relações entre partes do texto, identificando o antecedente de um pronome relativo ou o referente comum de uma cadeia de substituições lexicais.'),
+('EF08LP16', 'Ensino Fundamental', 8, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Modalização', 'Explicar os efeitos de sentido do uso, em textos, de estratégias de modalização e argumentatividade (sinais de pontuação, adjetivos, substantivos, expressões de grau, verbos e perífrases verbais, advérbios etc.).');
+
+-- 9º ANO - TODOS OS CAMPOS
+INSERT INTO habilidades (codigo, etapa, ano, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EF09LP01', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Leitura', 'Reconstrução do contexto de produção, circulação e recepção de textos/Caracterização do campo jornalístico e relação entre os gêneros em circulação, mídias e práticas da cultura digital', 'Analisar o fenômeno da disseminação de notícias falsas nas redes sociais e desenvolver estratégias para reconhecê-las, a partir da verificação/avaliação do veículo, fonte, data e local da publicação, autoria, URL, da análise da formatação, da comparação de diferentes fontes, da consulta a sites de curadoria que atestam a fidedignidade do relato dos fatos e denunciam boatos etc.'),
+('EF09LP02', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Leitura', 'Relação entre textos', 'Analisar e comentar a cobertura da imprensa sobre fatos de relevância social, comparando diferentes enfoques por meio do uso de ferramentas de curadoria.'),
+('EF09LP03', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Produção de textos', 'Textualização de textos argumentativos e apreciativos', 'Produzir artigos de opinião, tendo em vista o contexto de produção dado, assumindo posição diante de tema polêmico, argumentando de acordo com a estrutura própria desse tipo de texto e utilizando diferentes tipos de argumentos - de autoridade, comprovação, exemplificação princípio etc.'),
+('EF09LP04', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Fono-ortografia', 'Escrever textos corretamente, de acordo com a norma-padrão, com estruturas sintáticas complexas no nível da oração e do período.'),
+('EF09LP05', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Identificar, em textos lidos e em produções próprias, orações com a estrutura sujeito-verbo de ligação-predicativo.'),
+('EF09LP06', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Diferenciar, em textos lidos e em produções próprias, o efeito de sentido do uso dos verbos de ligação "ser", "estar", "ficar", "parecer" e "permanecer".'),
+('EF09LP07', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Morfossintaxe', 'Comparar o uso de regência verbal e regência nominal na norma-padrão com seu uso no português brasileiro coloquial oral.'),
+('EF09LP08', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Sintaxe', 'Identificar, em textos lidos e em produções próprias, a relação que conjunções (e locuções conjuntivas) coordenativas e subordinativas estabelecem entre as orações que conectam.'),
+('EF09LP09', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Elementos notacionais da escrita/morfossintaxe', 'Identificar efeitos de sentido do uso de orações adjetivas restritivas e explicativas em um período composto.'),
+('EF09LP10', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Comparar as regras de colocação pronominal na norma-padrão com o seu uso no português brasileiro coloquial.'),
+('EF09LP11', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Coesão', 'Inferir efeitos de sentido decorrentes do uso de recursos de coesão sequencial (conjunções e articuladores textuais).'),
+('EF09LP12', 'Ensino Fundamental', 9, 'Língua Portuguesa', 'Análise linguística/semiótica', 'Variação linguística', 'Identificar estrangeirismos, caracterizando-os segundo a conservação, ou não, de sua forma gráfica de origem, avaliando a pertinência, ou não, de seu uso.');
+
+-- ============================================================
+-- LÍNGUA PORTUGUESA - ENSINO MÉDIO
+-- TODOS OS CAMPOS DE ATUAÇÃO SOCIAL
+-- ============================================================
+
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP01', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Relação do texto com suas condições de produção', 'Relacionar o texto, tanto na produção como na leitura/escuta, com suas condições de produção e seu contexto sócio-histórico de circulação (leitor/audiência previstos, objetivos, pontos de vista e perspectivas, papel social do autor, época, gênero do discurso etc.), de forma a ampliar as possibilidades de construção de sentidos e de análise crítica e produzir textos adequados a diferentes situações.'),
+('EM13LP02', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Relações entre as partes do texto', 'Estabelecer relações entre as partes do texto, tanto na produção como na leitura/escuta, considerando a construção composicional e o estilo do gênero, usando/reconhecendo adequadamente elementos e recursos coesivos diversos que contribuam para a coerência, a continuidade do texto e sua progressão temática, e organizando informações, tendo em vista as condições de produção e as relações lógico-discursivas envolvidas (causa/efeito ou consequência; tese/argumentos; problema/solução; definição/exemplos etc.).'),
+('EM13LP03', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Intertextualidade e interdiscursividade', 'Analisar relações de intertextualidade e interdiscursividade que permitam a explicitação de relações dialógicas, a identificação de posicionamentos ou de perspectivas, a compreensão de paráfrases, paródias e estilizações, entre outras possibilidades.'),
+('EM13LP04', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Interdiscursividade e intertextualidade', 'Estabelecer relações de interdiscursividade e intertextualidade para explicitar, sustentar e conferir consistência a posicionamentos e para construir e corroborar explicações e relatos, fazendo uso de citações e paráfrases devidamente marcadas.'),
+('EM13LP05', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Argumentação', 'Analisar, em textos argumentativos, os posicionamentos assumidos, os movimentos argumentativos (sustentação, refutação/contra-argumentação e negociação) e os argumentos utilizados para sustentá-los, para avaliar sua força e eficácia, e posicionar-se criticamente diante da questão discutida e/ou dos argumentos utilizados, recorrendo aos mecanismos linguísticos necessários.'),
+('EM13LP06', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Efeitos de sentido', 'Analisar efeitos de sentido decorrentes de usos expressivos da linguagem, da escolha de determinadas palavras ou expressões e da ordenação, combinação e contraposição de palavras, dentre outros, para ampliar as possibilidades de construção de sentidos e de uso crítico da língua.'),
+('EM13LP07', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Modalização', 'Analisar, em textos de diferentes gêneros, marcas que expressam a posição do enunciador frente àquilo que é dito: uso de diferentes modalidades (epistêmica, deôntica e apreciativa) e de diferentes recursos gramaticais que operam como modalizadores (verbos modais, tempos e modos verbais, expressões modais, adjetivos, locuções ou orações adjetivas, advérbios, locuções ou orações adverbiais, entonação etc.), uso de estratégias de impessoalização (uso de terceira pessoa e de voz passiva etc.), com vistas ao incremento da compreensão e da criticidade e ao manejo adequado desses elementos nos textos produzidos, considerando os contextos de produção.'),
+('EM13LP08', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Sintaxe do português', 'Analisar elementos e aspectos da sintaxe do português, como a ordem dos constituintes da sentença (e os efeito que causam sua inversão), a estrutura dos sintagmas, as categorias sintáticas, os processos de coordenação e subordinação (e os efeitos de seus usos) e a sintaxe de concordância e de regência, de modo a potencializar os processos de compreensão e produção de textos e a possibilitar escolhas adequadas à situação comunicativa.'),
+('EM13LP09', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Gramática tradicional e gramáticas de uso', 'Comparar o tratamento dado pela gramática tradicional e pelas gramáticas de uso contemporâneas em relação a diferentes tópicos gramaticais, de forma a perceber as diferenças de abordagem e o fenômeno da variação linguística e analisar motivações que levam ao predomínio do ensino da norma-padrão na escola.'),
+('EM13LP10', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Variação linguística', 'Analisar o fenômeno da variação linguística, em seus diferentes níveis (variações fonético-fonológica, lexical, sintática, semântica e estilístico-pragmática) e em suas diferentes dimensões (regional, histórica, social, situacional, ocupacional, etária etc.), de forma a ampliar a compreensão sobre a natureza viva e dinâmica da língua e sobre o fenômeno da constituição de variedades linguísticas de prestígio e estigmatizadas, e a fundamentar o respeito às variedades linguísticas e o combate a preconceitos linguísticos.'),
+('EM13LP11', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Curadoria de informação', 'Fazer curadoria de informação, tendo em vista diferentes propósitos e projetos discursivos.'),
+('EM13LP12', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Seleção de informações', 'Selecionar informações, dados e argumentos em fontes confiáveis, impressas e digitais, e utilizá-los de forma referenciada, para que o texto a ser produzido tenha um nível de aprofundamento adequado (para além do senso comum) e contemple a sustentação das posições defendidas.'),
+('EM13LP13', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Efeitos de sentido de elementos sonoros', 'Analisar, a partir de referências contextuais, estéticas e culturais, efeitos de sentido decorrentes de escolhas de elementos sonoros (volume, timbre, intensidade, pausas, ritmo, efeitos sonoros, sincronização etc.) e de suas relações com o verbal, levando-os em conta na produção de áudios, para ampliar as possibilidades de construção de sentidos e de apreciação.'),
+('EM13LP14', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Efeitos de sentido de imagens e performances', 'Analisar, a partir de referências contextuais, estéticas e culturais, efeitos de sentido decorrentes de escolhas e composição das imagens (enquadramento, ângulo/vetor, foco/profundidade de campo, iluminação, cor, linhas, formas etc.) e de sua sequenciação (disposição e transição, movimentos de câmera, remix, entre outros), das performances (movimentos do corpo, gestos, ocupação do espaço cênico), dos elementos sonoros (entonação, trilha sonora, sampleamento etc.) e das relações desses elementos com o verbal, levando em conta esses efeitos nas produções de imagens e vídeos, para ampliar as possibilidades de construção de sentidos e de apreciação.'),
+('EM13LP15', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Produção de textos escritos e multissemióticos', 'Planejar, produzir, revisar, editar, reescrever e avaliar textos escritos e multissemióticos, considerando sua adequação às condições de produção do texto, no que diz respeito ao lugar social a ser assumido e à imagem que se pretende passar a respeito de si mesmo, ao leitor pretendido, ao veículo e mídia em que o texto ou produção cultural vai circular, ao contexto imediato e sócio-histórico mais geral, ao gênero textual em questão e suas regularidades, à variedade linguística apropriada a esse contexto e ao uso do conhecimento dos aspectos notacionais (ortografia padrão, pontuação adequada, mecanismos de concordância nominal e verbal, regência verbal etc.), sempre que o contexto o exigir.'),
+('EM13LP16', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Produção e análise de textos orais', 'Produzir e analisar textos orais, considerando sua adequação aos contextos de produção, à forma composicional e ao estilo do gênero em questão, à clareza, à progressão temática e à variedade linguística empregada, como também aos elementos relacionados à fala (modulação de voz, entonação, ritmo, altura e intensidade, respiração etc.) e à cinestesia (postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia etc.).'),
+('EM13LP17', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Roteiros para produção de vídeos e outras mídias', 'Elaborar roteiros para a produção de vídeos variados (vlog, videoclipe, videominuto, documentário etc.), apresentações teatrais, narrativas multimídia e transmídia, podcasts, playlists comentadas etc., para ampliar as possibilidades de produção de sentidos e engajar-se em práticas autorais e coletivas.'),
+('EM13LP18', 'Ensino Médio', 'Língua Portuguesa', 'Leitura, escuta, produção de textos e análise linguística/semiótica', 'Softwares de edição e ambientes colaborativos', 'Utilizar softwares de edição de textos, fotos, vídeos e áudio, além de ferramentas e ambientes colaborativos para criar textos e produções multissemióticas com finalidades diversas, explorando os recursos e efeitos disponíveis e apropriando-se de práticas colaborativas de escrita, de construção coletiva do conhecimento e de desenvolvimento de projetos.');
+
+-- ============================================================
+-- CAMPO DA VIDA PESSOAL
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP19', 'Ensino Médio', 'Língua Portuguesa', 'Campo da vida pessoal', 'Textos multimodais de apresentação pessoal', 'Apresentar-se por meio de textos multimodais diversos (perfis variados, gifs biográficos, biodata, currículo web, videocurrículo etc.) e de ferramentas digitais (ferramenta de gif, wiki, site etc.), para falar de si mesmo de formas variadas, considerando diferentes situações e objetivos.'),
+('EM13LP20', 'Ensino Médio', 'Língua Portuguesa', 'Campo da vida pessoal', 'Compartilhamento de interesses e práticas culturais', 'Compartilhar gostos, interesses, práticas culturais, temas/problemas/questões que despertam maior interesse ou preocupação, respeitando e valorizando diferenças, como forma de identificar afinidades e interesses comuns, como também de organizar e/ou participar de grupos, clubes, oficinas e afins.'),
+('EM13LP21', 'Ensino Médio', 'Língua Portuguesa', 'Campo da vida pessoal', 'Produção colaborativa de playlists e publicações culturais', 'Produzir, de forma colaborativa, e socializar playlists comentadas de preferências culturais e de entretenimento, revistas culturais, fanzines, e-zines ou publicações afins que divulguem, comentem e avaliem músicas, games, séries, filmes, quadrinhos, livros, peças, exposições, espetáculos de dança etc., de forma a compartilhar gostos, identificar afinidades, fomentar comunidades etc.'),
+('EM13LP22', 'Ensino Médio', 'Língua Portuguesa', 'Campo da vida pessoal', 'Registros de profissões e ocupações', 'Construir e/ou atualizar, de forma colaborativa, registros dinâmicos (mapas, wiki etc.) de profissões e ocupações de seu interesse (áreas de atuação, dados sobre formação, fazeres, produções, depoimentos de profissionais etc.) que possibilitem vislumbrar trajetórias pessoais e profissionais.');
+
+-- ============================================================
+-- CAMPO DE ATUAÇÃO NA VIDA PÚBLICA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP23', 'Ensino Médio', 'Língua Portuguesa', 'Campo de atuação na vida pública', 'Análise crítica de discursos políticos e políticas públicas', 'Analisar criticamente o histórico e o discurso político de candidatos, propagandas políticas, políticas públicas, programas e propostas de governo, de forma a participar do debate político e tomar decisões conscientes e fundamentadas.'),
+('EM13LP24', 'Ensino Médio', 'Língua Portuguesa', 'Campo de atuação na vida pública', 'Participação social não institucionalizada', 'Analisar formas não institucionalizadas de participação social, sobretudo as vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e formas de expressão típica das culturas juvenis que pretendam expor uma problemática ou promover uma reflexão/ação, posicionando-se em relação a essas produções e manifestações.'),
+('EM13LP25', 'Ensino Médio', 'Língua Portuguesa', 'Campo de atuação na vida pública', 'Participação em reuniões e debates', 'Participar de reuniões na escola (conselho de escola e de classe, grêmio livre etc.), agremiações, coletivos ou movimentos, entre outros, em debates, assembleias, fóruns de discussão etc., exercitando a escuta atenta, respeitando seu turno e tempo de fala, posicionando-se de forma fundamentada, respeitosa e ética diante da apresentação de propostas e defesas de opiniões, usando estratégias linguísticas típicas de negociação e de apoio e/ou de consideração do discurso do outro (como solicitar esclarecimento, detalhamento, fazer referência direta ou retomar a fala do outro, parafraseando-a para endossá-la, enfatizá-la, complementá-la ou enfraquecê-la), considerando propostas alternativas e reformulando seu posicionamento, quando for caso, com vistas ao entendimento e ao bem comum.'),
+('EM13LP26', 'Ensino Médio', 'Língua Portuguesa', 'Campo de atuação na vida pública', 'Textos legais e normativos', 'Relacionar textos e documentos legais e normativos de âmbito universal, nacional, local ou escolar que envolvam a definição de direitos e deveres – em especial, os voltados a adolescentes e jovens – aos seus contextos de produção, identificando ou inferindo possíveis motivações e finalidades, como forma de ampliar a compreensão desses direitos e deveres.'),
+('EM13LP27', 'Ensino Médio', 'Língua Portuguesa', 'Campo de atuação na vida pública', 'Engajamento e solução de problemas coletivos', 'Engajar-se na busca de solução para problemas que envolvam a coletividade, denunciando o desrespeito a direitos, organizando e/ou participando de discussões, campanhas e debates, produzindo textos reivindicatórios, normativos, entre outras possibilidades, como forma de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade, pelo consumo consciente e pela consciência socioambiental.');
+
+-- ============================================================
+-- CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP28', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Organização de situações de estudo', 'Organizar situações de estudo e utilizar procedimentos e estratégias de leitura adequados aos objetivos e à natureza do conhecimento em questão.'),
+('EM13LP29', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Resumo e resenha', 'Resumir e resenhar textos, por meio do uso de paráfrases, de marcas do discurso reportado e de citações, para uso em textos de divulgação de estudos e pesquisas.'),
+('EM13LP30', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Realização de pesquisas', 'Realizar pesquisas de diferentes tipos (bibliográfica, de campo, experimento científico, levantamento de dados etc.), usando fontes abertas e confiáveis, registrando o processo e comunicando os resultados, tendo em vista os objetivos pretendidos e demais elementos do contexto de produção, como forma de compreender como o conhecimento científico é produzido e apropriar-se dos procedimentos e dos gêneros textuais envolvidos na realização de pesquisas.'),
+('EM13LP31', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Compreensão de textos de divulgação científica', 'Compreender criticamente textos de divulgação científica orais, escritos e multissemióticos de diferentes áreas do conhecimento, identificando sua organização tópica e a hierarquização das informações, identificando e descartando fontes não confiáveis e problematizando enfoques tendenciosos ou superficiais.'),
+('EM13LP32', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Seleção e comparação de informações', 'Selecionar informações e dados necessários para uma dada pesquisa (sem excedê-los) em diferentes fontes (orais, impressas, digitais etc.) e comparar autonomamente esses conteúdos, levando em conta seus contextos de produção, referências e índices de confiabilidade, e percebendo coincidências, complementaridades, contradições, erros ou imprecisões conceituais e de dados, de forma a compreender e posicionar-se criticamente sobre esses conteúdos e estabelecer recortes precisos.'),
+('EM13LP33', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Instrumentos de coleta de dados', 'Selecionar, elaborar e utilizar instrumentos de coleta de dados e informações (questionários, enquetes, mapeamentos, opinários) e de tratamento e análise dos conteúdos obtidos, que atendam adequadamente a diferentes objetivos de pesquisa.'),
+('EM13LP34', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Produção de textos de divulgação científica', 'Produzir textos para a divulgação do conhecimento e de resultados de levantamentos e pesquisas – texto monográfico, ensaio, artigo de divulgação científica, verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, podcast ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. –, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de socialização e divulgação do conhecimento.'),
+('EM13LP35', 'Ensino Médio', 'Língua Portuguesa', 'Campo das práticas de estudo e pesquisa', 'Ferramentas de apoio a apresentações orais', 'Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade de texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.).');
+
+-- ============================================================
+-- CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP36', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Interesses do campo jornalístico', 'Analisar os interesses que movem o campo jornalístico, os impactos das novas tecnologias digitais de informação e comunicação e da Web 2.0 no campo e as condições que fazem da informação uma mercadoria e da checagem de informação uma prática (e um serviço) essencial, adotando atitude analítica e crítica diante dos textos jornalísticos.'),
+('EM13LP37', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Projetos editoriais', 'Conhecer e analisar diferentes projetos editorias – institucionais, privados, públicos, financiados, independentes etc. –, de forma a ampliar o repertório de escolhas possíveis de fontes de informação e opinião, reconhecendo o papel da mídia plural para a consolidação da democracia.'),
+('EM13LP38', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Parcialidade e imparcialidade no jornalismo', 'Analisar os diferentes graus de parcialidade/imparcialidade (no limite, a não neutralidade) em textos noticiosos, comparando relatos de diferentes fontes e analisando o recorte feito de fatos/dados e os efeitos de sentido provocados pelas escolhas realizadas pelo autor do texto, de forma a manter uma atitude crítica diante dos textos jornalísticos e tornar-se consciente das escolhas feitas como produtor.'),
+('EM13LP39', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Checagem de fatos e fake news', 'Usar procedimentos de checagem de fatos noticiados e fotos publicadas (verificar/avaliar veículo, fonte, data e local da publicação, autoria, URL, formatação; comparar diferentes fontes; consultar ferramentas e sites checadores etc.), de forma a combater a proliferação de notícias falsas (fake news).'),
+('EM13LP40', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Fenômeno da pós-verdade', 'Analisar o fenômeno da pós-verdade – discutindo as condições e os mecanismos de disseminação de fake news e também exemplos, causas e consequências desse fenômeno e da prevalência de crenças e opiniões sobre fatos –, de forma a adotar atitude crítica em relação ao fenômeno e desenvolver uma postura flexível que permita rever crenças e opiniões quando fatos apurados as contradisserem.'),
+('EM13LP41', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Curadoria em redes sociais e efeito bolha', 'Analisar os processos humanos e automáticos de curadoria que operam nas redes sociais e outros domínios da internet, comparando os feeds de diferentes páginas de redes sociais e discutindo os efeitos desses modelos de curadoria, de forma a ampliar as possibilidades de trato com o diferente e minimizar o efeito bolha e a manipulação de terceiros.'),
+('EM13LP42', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Cobertura da mídia e curadoria de informação', 'Acompanhar, analisar e discutir a cobertura da mídia diante de acontecimentos e questões de relevância social, local e global, comparando diferentes enfoques e perspectivas, por meio do uso de ferramentas de curadoria (como agregadores de conteúdo) e da consulta a serviços e fontes de checagem e curadoria de informação, de forma a aprofundar o entendimento sobre um determinado fato ou questão, identificar o enfoque preponderante da mídia e manter-se implicado, de forma crítica, com os fatos e as questões que afetam a coletividade.'),
+('EM13LP43', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Produção e compartilhamento em redes sociais', 'Atuar de forma fundamentada, ética e crítica na produção e no compartilhamento de comentários, textos noticiosos e de opinião, memes, gifs, remixes variados etc. em redes sociais ou outros ambientes digitais.'),
+('EM13LP44', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Publicidade contemporânea e estratégias de persuasão', 'Analisar formas contemporâneas de publicidade em contexto digital (advergame, anúncios em vídeos, social advertising, unboxing, narrativa mercadológica, entre outras), e peças de campanhas publicitárias e políticas (cartazes, folhetos, anúncios, propagandas em diferentes mídias, spots, jingles etc.), identificando valores e representações de situações, grupos e configurações sociais veiculadas, desconstruindo estereótipos, destacando estratégias de engajamento e viralização e explicando os mecanismos de persuasão utilizados e os efeitos de sentido provocados pelas escolhas feitas em termos de elementos e recursos linguístico-discursivos, imagéticos, sonoros, gestuais e espaciais, entre outros.'),
+('EM13LP45', 'Ensino Médio', 'Língua Portuguesa', 'Campo jornalístico-midiático', 'Produção de textos jornalísticos e culturais', 'Analisar, discutir, produzir e socializar, tendo em vista temas e acontecimentos de interesse local ou global, notícias, fotodenúncias, fotorreportagens, reportagens multimidiáticas, documentários, infográficos, podcasts noticiosos, artigos de opinião, críticas da mídia, vlogs de opinião, textos de apresentação e apreciação de produções culturais (resenhas, ensaios etc.) e outros gêneros próprios das formas de expressão das culturas juvenis (vlogs e podcasts culturais, gameplay etc.), em várias mídias, vivenciando de forma significativa o papel de repórter, analista, crítico, editorialista ou articulista, leitor, vlogueiro e booktuber, entre outros.');
+
+-- ============================================================
+-- CAMPO ARTÍSTICO-LITERÁRIO
+-- ============================================================
+INSERT INTO habilidades (codigo, etapa, componente, unidade_tematica, objeto_conhecimento, habilidade) VALUES
+('EM13LP46', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Compartilhamento de leituras literárias', 'Compartilhar sentidos construídos na leitura/escuta de textos literários, percebendo diferenças e eventuais tensões entre as formas pessoais e as coletivas de apreensão desses textos, para exercitar o diálogo cultural e aguçar a perspectiva crítica.'),
+('EM13LP47', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Participação em eventos culturais e literários', 'Participar de eventos (saraus, competições orais, audições, mostras, festivais, feiras culturais e literárias, rodas e clubes de leitura, cooperativas culturais, jograis, repentes, slams etc.), inclusive para socializar obras da própria autoria (poemas, contos e suas variedades, roteiros e microrroteiros, videominutos, playlists comentadas de música etc.) e/ou interpretar obras de outros, inserindo-se nas diferentes práticas culturais de seu tempo.'),
+('EM13LP48', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Literatura brasileira e cânone ocidental', 'Identificar assimilações, rupturas e permanências no processo de constituição da literatura brasileira e ao longo de sua trajetória, por meio da leitura e análise de obras fundamentais do cânone ocidental, em especial da literatura portuguesa, para perceber a historicidade de matrizes e procedimentos estéticos.'),
+('EM13LP49', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Peculiaridades dos gêneros literários', 'Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários (a apreensão pessoal do cotidiano nas crônicas, a manifestação livre e subjetiva do eu lírico diante do mundo nos poemas, a múltipla perspectiva da vida humana e social dos romances, a dimensão política e social de textos da literatura marginal e da periferia etc.) para experimentar os diferentes ângulos de apreensão do indivíduo e do mundo pela literatura.'),
+('EM13LP50', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Relações intertextuais e interdiscursivas', 'Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores e gêneros literários de um mesmo momento histórico e de momentos históricos diversos, explorando os modos como a literatura e as artes em geral se constituem, dialogam e se retroalimentam.'),
+('EM13LP51', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Acervo pessoal e autonomia cultural', 'Selecionar obras do repertório artístico-literário contemporâneo à disposição segundo suas predileções, de modo a constituir um acervo pessoal e dele se apropriar para se inserir e intervir com autonomia e criticidade no meio cultural.'),
+('EM13LP52', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Análise de obras literárias', 'Analisar obras significativas das literaturas brasileiras e de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos) ou outros critérios relacionados a diferentes matrizes culturais, considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como dialogam com o presente.'),
+('EM13LP53', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Produção de comentários e resenhas culturais', 'Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.).'),
+('EM13LP54', 'Ensino Médio', 'Língua Portuguesa', 'Campo artístico-literário', 'Criação de obras autorais e produções derivadas', 'Criar obras autorais, em diferentes gêneros e mídias – mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico –, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário.');
+
+
+
+-- Criação da tabela de palavras-chave
+CREATE TABLE IF NOT EXISTS topicos_habilidades (
+    topico TEXT NOT NULL,
+    codigo TEXT NOT NULL,
+    PRIMARY KEY (topico, codigo),
+    FOREIGN KEY (codigo) REFERENCES habilidades(codigo)
+);
+
+-- ============================================================
+-- ASSOCIAÇÕES DE TÓPICOS PARA CADA HABILIDADE
+-- (inclui o próprio objeto_conhecimento e termos amplos/sinônimos)
+-- ============================================================
+
+-- 1º ao 5º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Função social do texto', 'EF15LP01'),
+('Leitura e produção de texto', 'EF15LP01'),
+('Reconstrução das condições de produção', 'EF15LP01'),
+('Estratégias de leitura', 'EF15LP02'),
+('Antecipação de sentidos', 'EF15LP02'),
+('Inferência', 'EF15LP02'),
+('Localização de informações explícitas', 'EF15LP03'),
+('Leitura de textos multissemióticos', 'EF15LP04'),
+('Recursos gráfico-visuais', 'EF15LP04'),
+('Planejamento de texto', 'EF15LP05'),
+('Revisão de texto', 'EF15LP06'),
+('Edição de texto', 'EF15LP07'),
+('Tecnologia digital', 'EF15LP08'),
+('Software de edição', 'EF15LP08'),
+('Oralidade', 'EF15LP09'),
+('Expressão oral', 'EF15LP09'),
+('Escuta atenta', 'EF15LP10'),
+('Conversação espontânea', 'EF15LP11'),
+('Turnos de fala', 'EF15LP11'),
+('Aspectos paralinguísticos', 'EF15LP12'),
+('Comunicação não verbal', 'EF15LP12'),
+('Finalidade da interação oral', 'EF15LP13');
+
+-- 1º ao 5º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('História em quadrinhos', 'EF15LP14'),
+('Tirinhas', 'EF15LP14'),
+('Leitura de imagens', 'EF15LP14'),
+('Narrativas visuais', 'EF15LP14');
+
+-- 1º ao 5º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Leitura literária', 'EF15LP15'),
+('Formação do leitor', 'EF15LP15'),
+('Texto literário', 'EF15LP15'),
+('Contos', 'EF15LP16'),
+('Leitura colaborativa', 'EF15LP16'),
+('Poema visual', 'EF15LP17'),
+('Ilustração e texto', 'EF15LP18'),
+('Reconto oral', 'EF15LP19'),
+('Contação de histórias', 'EF15LP19');
+
+-- 1º e 2º anos - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Decodificação', 'EF12LP01'),
+('Fluência de leitura', 'EF12LP01'),
+('Leitura de palavras', 'EF12LP01'),
+('Busca de textos', 'EF12LP02'),
+('Leitura compartilhada', 'EF12LP02'),
+('Cópia de texto', 'EF12LP03'),
+('Construção do sistema alfabético', 'EF12LP03');
+
+-- 1º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Protocolos de leitura', 'EF01LP01'),
+('Direção da leitura', 'EF01LP01'),
+('Correspondência fonema-grafema', 'EF01LP02'),
+('Escrita alfabética', 'EF01LP02'),
+('Comparação de escritas', 'EF01LP03'),
+('Alfabeto', 'EF01LP04'),
+('Sinais gráficos', 'EF01LP04'),
+('Sistema de escrita alfabética', 'EF01LP05'),
+('Segmentação de sílabas', 'EF01LP06'),
+('Consciência fonológica', 'EF01LP07'),
+('Fonemas e letras', 'EF01LP07'),
+('Relação som-escrita', 'EF01LP08'),
+('Semelhanças sonoras', 'EF01LP09'),
+('Nome das letras', 'EF01LP10'),
+('Ordem alfabética', 'EF01LP10'),
+('Letras imprensa e cursiva', 'EF01LP11'),
+('Maiúsculas e minúsculas', 'EF01LP11'),
+('Segmentação de palavras', 'EF01LP12'),
+('Espaçamento entre palavras', 'EF01LP12'),
+('Sílabas mediais e finais', 'EF01LP13'),
+('Pontuação inicial', 'EF01LP14'),
+('Ponto final, interrogação, exclamação', 'EF01LP14'),
+('Sinônimos e antônimos', 'EF01LP15'),
+('Sinonímia e antonímia', 'EF01LP15');
+
+-- 2º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Grafia correta', 'EF02LP01'),
+('Maiúsculas em início de frase', 'EF02LP01'),
+('Segmentação de palavras em sílabas', 'EF02LP02'),
+('Criação de palavras', 'EF02LP02'),
+('Correspondências regulares diretas', 'EF02LP03'),
+('Correspondências regulares contextuais', 'EF02LP03'),
+('Estrutura silábica', 'EF02LP04'),
+('Sílaba simples e complexa', 'EF02LP04'),
+('Nasalidade', 'EF02LP05'),
+('Til, m, n', 'EF02LP05'),
+('Princípio acrofónico', 'EF02LP06'),
+('Cursiva e imprensa', 'EF02LP07'),
+('Segmentação de frases', 'EF02LP08'),
+('Uso de pontuação', 'EF02LP09'),
+('Sinônimos e antônimos com prefixo', 'EF02LP10'),
+('Aumentativo e diminutivo', 'EF02LP11'),
+('Sufixos -ão, -inho/-zinho', 'EF02LP11');
+
+-- 1º e 2º anos - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Gêneros da vida cotidiana', 'EF12LP04'),
+('Listas, agendas, convites', 'EF12LP04'),
+('Planejamento de texto coletivo', 'EF12LP05'),
+('Produção de texto compartilhada', 'EF12LP06'),
+('Recados e avisos', 'EF12LP06');
+
+-- 1º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Quadrinhas, parlendas', 'EF01LP16'),
+('Trava-línguas', 'EF01LP16'),
+('Produção compartilhada de listas', 'EF01LP17'),
+('Registro de cantigas', 'EF01LP18'),
+('Recitar parlendas', 'EF01LP19'),
+('Entoação adequada', 'EF01LP19'),
+('Diagramação de gêneros', 'EF01LP20'),
+('Formatação de texto', 'EF01LP20');
+
+-- 2º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Cantigas e canções', 'EF02LP12'),
+('Bilhetes e cartas', 'EF02LP13'),
+('Relato pessoal', 'EF02LP14'),
+('Canção e ritmo', 'EF02LP15'),
+('Formatação de bilhetes, cartas', 'EF02LP16'),
+('Sequência temporal em relatos', 'EF02LP17');
+
+-- 1º e 2º anos - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Rimas e aliterações', 'EF12LP07'),
+('Ritmo e melodia', 'EF12LP07'),
+('Notícias para crianças', 'EF12LP08'),
+('Fotolegendas', 'EF12LP08'),
+('Anúncios publicitários', 'EF12LP09'),
+('Campanhas de conscientização', 'EF12LP09'),
+('Cartazes e regras', 'EF12LP10'),
+('Escrita compartilhada de notícias', 'EF12LP11'),
+('Produção de slogans', 'EF12LP12'),
+('Planejamento de campanha oral', 'EF12LP13'),
+('Formatação de gêneros jornalísticos', 'EF12LP14'),
+('Composição de slogans', 'EF12LP15'),
+('Formatação de anúncios', 'EF12LP16');
+
+-- 1º ano - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Escrita de regras e regulamentos', 'EF01LP21');
+
+-- 2º ano - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Cartazes e folhetos', 'EF02LP18'),
+('Linguagem persuasiva', 'EF02LP18'),
+('Notícias curtas para jornal falado', 'EF02LP19');
+
+-- 1º e 2º anos - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Leitura de enunciados', 'EF12LP17'),
+('Diagramas e entrevistas', 'EF12LP17');
+
+-- 2º ano - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Função de textos de pesquisa', 'EF02LP20'),
+('Pesquisa em ambientes digitais', 'EF02LP21'),
+('Produção de relatos de experimentos', 'EF02LP22'),
+('Registro de observação', 'EF02LP23'),
+('Apresentação oral de experimentos', 'EF02LP24'),
+('Formatação de entrevistas e verbetes', 'EF02LP25');
+
+-- 1º ano - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Produção de diagramas e curiosidades', 'EF01LP22'),
+('Planejamento de entrevista oral', 'EF01LP23'),
+('Formatação de enunciados e diagramas', 'EF01LP24');
+
+-- 1º e 2º anos - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Apreciação de poemas', 'EF12LP18'),
+('Rimas e sonoridades', 'EF12LP18'),
+('Reconhecimento de rimas', 'EF12LP19'),
+('Comparações e sensações', 'EF12LP19');
+
+-- 1º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Recontagem de histórias', 'EF01LP25'),
+('Elementos da narrativa', 'EF01LP26'),
+('Personagens, enredo, tempo, espaço', 'EF01LP26');
+
+-- 2º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Leitura autônoma de textos literários', 'EF02LP26'),
+('Reescrita de narrativas', 'EF02LP27'),
+('Conflito gerador', 'EF02LP28'),
+('Resolução de narrativa', 'EF02LP28'),
+('Poema visual: formato e ilustração', 'EF02LP29');
+
+-- ============================================================
+-- 3º AO 5º ANO – TODOS OS CAMPOS E CAMPOS ESPECÍFICOS
+-- ============================================================
+
+-- 3º ao 5º - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Fluência de leitura', 'EF35LP01'),
+('Seleção de livros', 'EF35LP02'),
+('Ideia central do texto', 'EF35LP03'),
+('Inferência de informações', 'EF35LP04'),
+('Inferir palavras pelo contexto', 'EF35LP05'),
+('Relações entre partes do texto', 'EF35LP06'),
+('Substituições lexicais e pronominais', 'EF35LP06'),
+('Coesão referencial', 'EF35LP06'),
+('Pontuação e ortografia na produção', 'EF35LP07'),
+('Recursos de referenciação', 'EF35LP08'),
+('Coesão pronominal', 'EF35LP08'),
+('Paragrafação', 'EF35LP09'),
+('Gêneros do discurso oral', 'EF35LP10'),
+('Variação linguística', 'EF35LP11'),
+('Preconceito linguístico', 'EF35LP11'),
+('Uso do dicionário', 'EF35LP12'),
+('Grafia irregular', 'EF35LP13'),
+('Palavras com h inicial', 'EF35LP13'),
+('Pronomes pessoais, possessivos, demonstrativos', 'EF35LP14'),
+('Opinar e defender ponto de vista', 'EF35LP15'),
+('Texto argumentativo inicial', 'EF35LP15');
+
+-- 3º ao 5º - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Formatação de notícias e cartas', 'EF35LP16');
+
+-- 3º ao 5º - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Pesquisa escolar', 'EF35LP17'),
+('Escuta de apresentações', 'EF35LP18'),
+('Recuperar ideias principais', 'EF35LP19'),
+('Exposição oral com recursos', 'EF35LP20');
+
+-- 3º ao 5º - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Leitura literária autônoma', 'EF35LP21'),
+('Diálogos em textos narrativos', 'EF35LP22'),
+('Discurso direto e variedades', 'EF35LP22'),
+('Apreciação de poemas', 'EF35LP23'),
+('Rimas, aliterações, estrofes', 'EF35LP23'),
+('Texto dramático', 'EF35LP24'),
+('Marcadores de cena', 'EF35LP24'),
+('Produção de narrativas ficcionais', 'EF35LP25'),
+('Leitura de narrativas', 'EF35LP26'),
+('Elementos da narrativa', 'EF35LP26'),
+('Textos em versos', 'EF35LP27'),
+('Declamação de poemas', 'EF35LP28'),
+('Conflito e resolução em narrativas', 'EF35LP29'),
+('Foco narrativo', 'EF35LP29'),
+('Discurso direto e indireto', 'EF35LP30'),
+('Figuras de linguagem em poemas', 'EF35LP31'),
+('Metáfora', 'EF35LP31');
+
+-- 3º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Correspondências regulares contextuais', 'EF03LP01'),
+('c/qu; g/qu; r/rr; s/ss', 'EF03LP01'),
+('Sílaba átona final', 'EF03LP01'),
+('Dígrafos lh, nh, ch', 'EF03LP03'),
+('Acento gráfico em monossílabos', 'EF03LP04'),
+('Classificação de sílabas', 'EF03LP05'),
+('Sílaba tônica', 'EF03LP06'),
+('Classificação por tonicidade', 'EF03LP06'),
+('Pontuação: ponto, interrogação, exclamação', 'EF03LP07'),
+('Dois-pontos e travessão', 'EF03LP07'),
+('Substantivos e verbos', 'EF03LP08'),
+('Funções na oração', 'EF03LP08'),
+('Adjetivos', 'EF03LP09'),
+('Prefixos e sufixos', 'EF03LP10'),
+('Formação de palavras', 'EF03LP10');
+
+-- 3º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Texto injuntivo', 'EF03LP11'),
+('Receitas e instruções', 'EF03LP11'),
+('Cartas pessoais e diários', 'EF03LP12'),
+('Produção de cartas e diários', 'EF03LP13'),
+('Produção de textos injuntivos', 'EF03LP14'),
+('Receita em vídeo', 'EF03LP15'),
+('Formatação de receitas', 'EF03LP16'),
+('Formatação de cartas e diários', 'EF03LP17');
+
+-- 3º ano - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Cartas de leitor e reclamação', 'EF03LP18'),
+('Recursos de persuasão', 'EF03LP19'),
+('Propaganda infantil', 'EF03LP19'),
+('Produção de cartas de leitor', 'EF03LP20'),
+('Produção de anúncios', 'EF03LP21'),
+('Telejornal infantil', 'EF03LP22'),
+('Adjetivos em cartas de reclamação', 'EF03LP23');
+
+-- 3º ano - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Relatos de observação', 'EF03LP24'),
+('Produção de relatórios', 'EF03LP25'),
+('Formatação de relatórios', 'EF03LP26');
+
+-- 3º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Cordel e repente', 'EF03LP27');
+
+-- 4º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Ortografia: regras diretas e contextuais', 'EF04LP01'),
+('Ditongos ai, ei, ou', 'EF04LP02'),
+('Localização no dicionário', 'EF04LP03'),
+('Acento em paroxítonas', 'EF04LP04'),
+('Pontuação: vírgula, dois-pontos, travessão', 'EF04LP05'),
+('Vocativo e aposto', 'EF04LP05'),
+('Concordância verbal', 'EF04LP06'),
+('Concordância nominal', 'EF04LP07'),
+('Sufixos -agem, -oso, -eza, -izar', 'EF04LP08');
+
+-- 4º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Boletos e faturas', 'EF04LP09'),
+('Cartas de reclamação', 'EF04LP10'),
+('Produção de cartas de reclamação', 'EF04LP11'),
+('Tutoriais em vídeo', 'EF04LP12'),
+('Formatação de instruções de jogos', 'EF04LP13');
+
+-- 4º ano - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Fatos em notícias', 'EF04LP14'),
+('Distinção fato/opinião', 'EF04LP15'),
+('Produção de notícias', 'EF04LP16'),
+('Jornal radiofônico/televisivo', 'EF04LP17'),
+('Entonação de âncoras', 'EF04LP18');
+
+-- 4º ano - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Textos de divulgação científica', 'EF04LP19'),
+('Gráficos e tabelas', 'EF04LP20'),
+('Função de gráficos', 'EF04LP20'),
+('Produção de textos de pesquisa', 'EF04LP21'),
+('Produção de verbetes', 'EF04LP22'),
+('Formatação de verbetes', 'EF04LP23'),
+('Formatação de tabelas e gráficos', 'EF04LP24');
+
+-- 4º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Representação cênica', 'EF04LP25'),
+('Poema concreto', 'EF04LP26'),
+('Diagramação de letras', 'EF04LP26'),
+('Marcadores de texto dramático', 'EF04LP27');
+
+-- 5º ano - Todos os campos
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Ortografia: regulares contextuais e morfológicas', 'EF05LP01'),
+('Palavras com correspondências irregulares', 'EF05LP01'),
+('Polissemia', 'EF05LP02'),
+('Acentuação completa', 'EF05LP03'),
+('Vírgula, ponto e vírgula, dois-pontos', 'EF05LP04'),
+('Reticências, aspas, parênteses', 'EF05LP04'),
+('Tempos verbais do indicativo', 'EF05LP05'),
+('Presente, passado e futuro', 'EF05LP05'),
+('Flexão verbal', 'EF05LP06'),
+('Conjunções e relações de sentido', 'EF05LP07'),
+('Adição, oposição, tempo, causa', 'EF05LP07'),
+('Palavras primitivas, derivadas e compostas', 'EF05LP08'),
+('Prefixos e sufixos', 'EF05LP08');
+
+-- 5º ano - Campo da vida cotidiana
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Regras de jogo', 'EF05LP09'),
+('Anedotas e cartuns', 'EF05LP10'),
+('Produção de anedotas e cartuns', 'EF05LP11'),
+('Produção de regras de jogo', 'EF05LP12'),
+('Resenha em vlog', 'EF05LP13'),
+('Formatação de resenha crítica', 'EF05LP14');
+
+-- 5º ano - Campo da vida pública
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Notícias e reportagens', 'EF05LP15'),
+('Comparar mídias', 'EF05LP16'),
+('Roteiro para reportagem digital', 'EF05LP17'),
+('Vlog argumentativo', 'EF05LP18'),
+('Argumentação oral', 'EF05LP19'),
+('Análise de argumentos', 'EF05LP20'),
+('Padrão entonacional de vloggers', 'EF05LP21');
+
+-- 5º ano - Campo das práticas de estudo e pesquisa
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Verbetes de dicionário', 'EF05LP22'),
+('Comparar gráficos e tabelas', 'EF05LP23'),
+('Produção de texto com pesquisa', 'EF05LP24'),
+('Produção de verbetes de dicionário', 'EF05LP25'),
+('Normas de concordância e citações', 'EF05LP26'),
+('Coesão pronominal e articuladores', 'EF05LP27');
+
+-- 5º ano - Campo artístico-literário
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Ciberpoemas', 'EF05LP28'),
+('Recursos multissemióticos digitais', 'EF05LP28');
+
+-- ============================================================
+-- 6º AO 9º ANO – CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Liberdade de expressão', 'EF69LP01'),
+('Discurso de ódio', 'EF69LP01'),
+('Peças publicitárias', 'EF69LP02'),
+('Campanhas publicitárias', 'EF69LP02'),
+('Análise de notícias, reportagens, entrevistas', 'EF69LP03'),
+('Humor e crítica em tirinhas, memes, charges', 'EF69LP03'),
+('Persuasão em textos publicitários', 'EF69LP04'),
+('Consumo consciente', 'EF69LP04'),
+('Efeitos de humor e ironia', 'EF69LP05'),
+('Multissemiose', 'EF69LP05'),
+('Produção de gêneros jornalísticos', 'EF69LP06'),
+('Papéis sociais na Web', 'EF69LP06'),
+('Planejamento de texto', 'EF69LP07'),
+('Revisão e edição', 'EF69LP08'),
+('Campanha publicitária', 'EF69LP09'),
+('Produção de notícias para rádio/TV/podcast', 'EF69LP10'),
+('Análise de posicionamentos', 'EF69LP11'),
+('Debate e discussão', 'EF69LP11'),
+('Planejamento de textos orais', 'EF69LP12'),
+('Elementos cinésicos e paralinguísticos', 'EF69LP12'),
+('Busca de conclusões comuns', 'EF69LP13'),
+('Formulação de perguntas', 'EF69LP14'),
+('Contra-argumentos', 'EF69LP15'),
+('Composição de gêneros jornalísticos', 'EF69LP16'),
+('Pirâmide invertida', 'EF69LP16'),
+('Recursos estilísticos e semióticos', 'EF69LP17'),
+('Tratamento da informação', 'EF69LP17'),
+('Operadores de conexão em argumentação', 'EF69LP18'),
+('Efeitos de sentido em orais argumentativos', 'EF69LP19');
+
+-- ============================================================
+-- CAMPO DE ATUAÇÃO NA VIDA PÚBLICA – 6º AO 9º ANO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Textos normativos e legais', 'EF69LP20'),
+('Hierarquia de artigos', 'EF69LP20'),
+('Participação social', 'EF69LP21'),
+('Produção de textos reivindicatórios', 'EF69LP22'),
+('Textos normativos escolares', 'EF69LP23'),
+('Discussão de casos legais', 'EF69LP24'),
+('Código de Defesa do Consumidor', 'EF69LP24'),
+('ECA', 'EF69LP24'),
+('Posicionamento em discussões', 'EF69LP25'),
+('Tomar nota em debates', 'EF69LP26'),
+('Forma composicional de textos políticos', 'EF69LP27'),
+('Modalização deôntica e apreciativa', 'EF69LP28'),
+('Modalizadores', 'EF69LP28');
+
+-- ============================================================
+-- CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA – 6º AO 9º ANO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Gêneros de divulgação científica', 'EF69LP29'),
+('Comparação de fontes', 'EF69LP30'),
+('Hierarquização de proposições', 'EF69LP31'),
+('Seleção de dados', 'EF69LP32'),
+('Relação verbal com infográficos', 'EF69LP33'),
+('Estratégias de estudo', 'EF69LP34'),
+('Resumo e resenha', 'EF69LP34'),
+('Produção de texto de divulgação científica', 'EF69LP35'),
+('Revisão e edição de textos científicos', 'EF69LP36'),
+('Roteiros para vídeos científicos', 'EF69LP37'),
+('Planejamento de apresentações orais', 'EF69LP38'),
+('Planejamento de entrevista', 'EF69LP39'),
+('Construção composicional de seminários', 'EF69LP40'),
+('Ferramentas de apoio a apresentações', 'EF69LP41'),
+('Estrutura de textos de divulgação', 'EF69LP42'),
+('Citações e paráfrases', 'EF69LP43'),
+('Intertextualidade científica', 'EF69LP43');
+
+-- ============================================================
+-- CAMPO ARTÍSTICO-LITERÁRIO – 6º AO 9º ANO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Valores em textos literários', 'EF69LP44'),
+('Resenha crítica e sinopse', 'EF69LP45'),
+('Práticas de compartilhamento literário', 'EF69LP46'),
+('Club de leitura', 'EF69LP46'),
+('Análise de narrativas ficcionais', 'EF69LP47'),
+('Foco narrativo', 'EF69LP47'),
+('Recursos expressivos em poemas', 'EF69LP48'),
+('Figuras de linguagem', 'EF69LP48'),
+('Interesse por leitura desafiadora', 'EF69LP49'),
+('Adaptação de textos para teatro', 'EF69LP50'),
+('Engajamento em produção literária', 'EF69LP51'),
+('Representação de cenas', 'EF69LP52'),
+('Leitura em voz alta', 'EF69LP53'),
+('Recursos paralinguísticos e cinésicos', 'EF69LP54'),
+('Variação linguística na literatura', 'EF69LP54');
+
+-- ============================================================
+-- TODOS OS CAMPOS – 6º E 7º ANOS (habilidades compostas)
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Variação linguística, norma-padrão', 'EF69LP55'),
+('Preconceito linguístico', 'EF69LP55'),
+('Uso consciente da norma-padrão', 'EF69LP56');
+
+-- ============================================================
+-- 6º E 7º ANOS – CAMPO JORNALÍSTICO-MIDIÁTICO (específicas)
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Parcialidade e imparcialidade', 'EF06LP01'),
+('Centralidade da notícia', 'EF06LP02'),
+('Propostas editoriais', 'EF07LP01'),
+('Comparação de notícias', 'EF07LP02'),
+('Hipertexto', 'EF67LP01'),
+('Espaço do leitor', 'EF67LP02'),
+('Confiabilidade de fontes', 'EF67LP03'),
+('Distinção fato/opinião', 'EF67LP04'),
+('Tese e argumentos', 'EF67LP05'),
+('Seleção lexical e hierarquização', 'EF67LP06'),
+('Recursos persuasivos', 'EF67LP07'),
+('Imagens em notícias', 'EF67LP08'),
+('Planejamento de notícia', 'EF67LP09'),
+('Produção de notícia impressa e digital', 'EF67LP10'),
+('Planejamento de resenhas e vlogs', 'EF67LP11'),
+('Produção de resenha crítica', 'EF67LP12'),
+('Produção de texto publicitário', 'EF67LP13'),
+('Planejamento de entrevista oral', 'EF67LP14');
+
+-- ============================================================
+-- 6º E 7º ANOS – CAMPO DE ATUAÇÃO NA VIDA PÚBLICA
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Leitura de artigos legais', 'EF67LP15'),
+('Código Nacional de Trânsito', 'EF67LP15'),
+('Canais de reclamação', 'EF67LP16'),
+('Carta de solicitação e reclamação', 'EF67LP17'),
+('Pertinência da solicitação', 'EF67LP18'),
+('Levantamento de problemas comunitários', 'EF67LP19');
+
+-- ============================================================
+-- 6º E 7º ANOS – CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Pesquisa com recorte definido', 'EF67LP20'),
+('Divulgação de pesquisas', 'EF67LP21'),
+('Produção de resumos', 'EF67LP22'),
+('Respeito aos turnos de fala', 'EF67LP23'),
+('Conversação espontânea', 'EF67LP23'),
+('Tomada de nota', 'EF67LP24'),
+('Organização tópica', 'EF67LP25'),
+('Hipertexto em divulgação científica', 'EF67LP26');
+
+-- ============================================================
+-- 6º E 7º ANOS – CAMPO ARTÍSTICO-LITERÁRIO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Relação entre textos', 'EF67LP27'),
+('Intertextualidade', 'EF67LP27'),
+('Leitura autônoma de gêneros diversos', 'EF67LP28'),
+('Contos, lendas, romances', 'EF67LP28'),
+('Elementos do texto dramático', 'EF67LP29'),
+('Produção de narrativas ficcionais', 'EF67LP30'),
+('Produção de poemas', 'EF67LP31');
+
+-- ============================================================
+-- 6º E 7º ANOS – TODOS OS CAMPOS (gramática e coesão)
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Ortografia', 'EF67LP32'),
+('Pontuação', 'EF67LP33'),
+('Antônimos com prefixos', 'EF67LP34'),
+('Palavras derivadas e compostas', 'EF67LP35'),
+('Série sinonímica', 'EF06LP03'),
+('Flexão de substantivos e adjetivos', 'EF06LP04'),
+('Modos verbais e efeitos de sentido', 'EF06LP05'),
+('Concordância nominal e verbal', 'EF06LP06'),
+('Período composto por coordenação', 'EF06LP07'),
+('Oração como unidade', 'EF06LP08'),
+('Períodos simples e compostos', 'EF06LP09'),
+('Sintagmas nominais e verbais', 'EF06LP10'),
+('Uso de tempos verbais e concordância', 'EF06LP11'),
+('Coesão referencial e sequencial', 'EF06LP12'),
+('Formação de palavras por prefixos e sufixos', 'EF07LP03'),
+('Verbo como núcleo da oração', 'EF07LP04'),
+('Verbos transitivos e intransitivos', 'EF07LP05'),
+('Transitividade verbal', 'EF07LP05'),
+('Verbo transitivo direto e indireto', 'EF07LP05'),
+('Predicação verbal', 'EF07LP05'),
+('Concordância nominal e verbal (7º)', 'EF07LP06'),
+('Estrutura básica da oração', 'EF07LP07'),
+('Sujeito, predicado, objeto direto e indireto', 'EF07LP07'),
+('Adjetivos e substantivos', 'EF07LP08'),
+('Advérbios e locuções adverbiais', 'EF07LP09'),
+('Produção textual com gramática', 'EF07LP10'),
+('Período composto e conjunções adversativas', 'EF07LP11'),
+('Coesão por substituição lexical/pronominal', 'EF07LP12'),
+('Relações de coesão', 'EF07LP13'),
+('Modalização e argumentatividade', 'EF07LP14'),
+('Coesão referencial e sequencial (produção)', 'EF67LP36'),
+('Sequências textuais', 'EF67LP37'),
+('Figuras de linguagem: comparação, metáfora, etc.', 'EF67LP38');
+
+-- ============================================================
+-- 8º E 9º ANOS – CAMPO JORNALÍSTICO-MIDIÁTICO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Interesses do campo jornalístico', 'EF89LP01'),
+('Cultura digital', 'EF89LP02'),
+('Meme, gif, comentário', 'EF89LP02'),
+('Posicionamento crítico', 'EF89LP03'),
+('Artigo de opinião', 'EF89LP03'),
+('Teses e argumentos implícitos', 'EF89LP04'),
+('Apropriação textual', 'EF89LP05'),
+('Recursos persuasivos avançados', 'EF89LP06'),
+('Análise de imagens em movimento', 'EF89LP07'),
+('Planejamento de reportagem', 'EF89LP08'),
+('Produção de reportagem impressa e digital', 'EF89LP09'),
+('Planejamento de artigo de opinião', 'EF89LP10'),
+('Produção de campanha publicitária', 'EF89LP11'),
+('Debate regrado', 'EF89LP12'),
+('Planejamento de debate', 'EF89LP12'),
+('Entrevista oral com edição', 'EF89LP13'),
+('Análise de movimentos argumentativos', 'EF89LP14'),
+('Operadores argumentativos', 'EF89LP15'),
+('Modalização em textos noticiosos', 'EF89LP16');
+
+-- ============================================================
+-- 8º E 9º ANOS – CAMPO DE ATUAÇÃO NA VIDA PÚBLICA
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Declaração dos Direitos Humanos', 'EF89LP17'),
+('Constituição Federal', 'EF89LP17'),
+('Canais de participação digital', 'EF89LP18'),
+('Carta aberta e abaixo-assinado', 'EF89LP19'),
+('Petição on-line', 'EF89LP19'),
+('Comparação de propostas políticas', 'EF89LP20'),
+('Pesquisa de opinião e enquetes', 'EF89LP21'),
+('Negociação em discussões', 'EF89LP22'),
+('Força dos argumentos', 'EF89LP23');
+
+-- ============================================================
+-- 8º E 9º ANOS – CAMPO DAS PRÁTICAS DE ESTUDO E PESQUISA
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Pesquisa com fontes confiáveis', 'EF89LP24'),
+('Divulgação de pesquisa em vídeos/vlogs', 'EF89LP25'),
+('Produção de resenhas com vozes', 'EF89LP26'),
+('Participação oral qualificada', 'EF89LP27'),
+('Tomar nota de videoaulas', 'EF89LP28'),
+('Progressão temática', 'EF89LP29'),
+('Retomadas anafóricas', 'EF89LP29'),
+('Hipertexto e hiperlinks', 'EF89LP30'),
+('Modalização epistêmica', 'EF89LP31');
+
+-- ============================================================
+-- 8º E 9º ANOS – CAMPO ARTÍSTICO-LITERÁRIO
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Intertextualidade artística', 'EF89LP32'),
+('Paródia, paráfrase, pastiche', 'EF89LP32'),
+('Leitura autônoma de gêneros contemporâneos', 'EF89LP33'),
+('Miniconto, ficção científica', 'EF89LP33'),
+('Texto dramático em outras mídias', 'EF89LP34'),
+('Produção de contos e crônicas', 'EF89LP35'),
+('Paródia de poemas', 'EF89LP36'),
+('Ciberpoema e haicai', 'EF89LP36');
+
+-- ============================================================
+-- 8º E 9º ANOS – TODOS OS CAMPOS (gramática)
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Figuras de linguagem avançadas', 'EF89LP37'),
+('Ironia, eufemismo, antítese', 'EF89LP37'),
+('Editorias de jornais', 'EF08LP01'),
+('Checagem de fatos', 'EF08LP02'),
+('Produção de artigo de opinião', 'EF08LP03'),
+('Ortografia e regências na produção', 'EF08LP04'),
+('Formação de palavras por composição', 'EF08LP05'),
+('Termos constitutivos da oração', 'EF08LP06'),
+('Sujeito e complementos', 'EF08LP06'),
+('Complemento direto e indireto', 'EF08LP07'),
+('Transitividade verbal - complementos', 'EF08LP07'),
+('Voz ativa e passiva', 'EF08LP08'),
+('Agente da passiva', 'EF08LP08'),
+('Adjuntos adnominais', 'EF08LP09'),
+('Modificadores do substantivo', 'EF08LP09'),
+('Advérbios e adjuntos adverbiais', 'EF08LP10'),
+('Coordenação e subordinação', 'EF08LP11'),
+('Orações subordinadas', 'EF08LP12'),
+('Conjunções e coesão', 'EF08LP13'),
+('Coesão sequencial', 'EF08LP13'),
+('Produção textual com coesão e discurso', 'EF08LP14'),
+('Pronome relativo e referência', 'EF08LP15'),
+('Modalizadores e argumentatividade', 'EF08LP16'),
+('Fake news e checagem', 'EF09LP01'),
+('Cobertura da imprensa', 'EF09LP02'),
+('Artigo de opinião com tipos de argumentos', 'EF09LP03'),
+('Sintaxe complexa', 'EF09LP04'),
+('Verbo de ligação e predicativo', 'EF09LP05'),
+('Verbos de ligação: ser, estar, ficar', 'EF09LP06'),
+('Regência verbal e nominal', 'EF09LP07'),
+('Conjunções coordenativas e subordinativas', 'EF09LP08'),
+('Orações adjetivas restritivas e explicativas', 'EF09LP09'),
+('Colocação pronominal', 'EF09LP10'),
+('Coesão sequencial avançada', 'EF09LP11'),
+('Estrangeirismos', 'EF09LP12');
+
+-- ============================================================
+-- ENSINO MÉDIO – TODOS OS CAMPOS / CAMPOS ESPECÍFICOS
+-- ============================================================
+INSERT INTO topicos_habilidades (topico, codigo) VALUES
+('Condições de produção do texto', 'EM13LP01'),
+('Relações entre partes do texto', 'EM13LP02'),
+('Intertextualidade e interdiscursividade', 'EM13LP03'),
+('Citações e paráfrases', 'EM13LP04'),
+('Análise de argumentação', 'EM13LP05'),
+('Efeitos de sentido', 'EM13LP06'),
+('Modalização', 'EM13LP07'),
+('Sintaxe do português', 'EM13LP08'),
+('Gramática tradicional e de uso', 'EM13LP09'),
+('Variação linguística aprofundada', 'EM13LP10'),
+('Curadoria de informação', 'EM13LP11'),
+('Seleção de fontes confiáveis', 'EM13LP12'),
+('Elementos sonoros', 'EM13LP13'),
+('Análise de imagens e performances', 'EM13LP14'),
+('Produção de textos escritos e multissemióticos', 'EM13LP15'),
+('Análise e produção de textos orais', 'EM13LP16'),
+('Roteiros para vídeos e mídias', 'EM17LP17'),
+('Softwares de edição', 'EM13LP18'),
+('Textos de apresentação pessoal', 'EM13LP19'),
+('Compartilhamento cultural', 'EM13LP20'),
+('Playlists comentadas', 'EM13LP21'),
+('Registros de profissões', 'EM13LP22'),
+('Análise de discursos políticos', 'EM13LP23'),
+('Participação social não institucional', 'EM13LP24'),
+('Participação em reuniões e debates', 'EM13LP25'),
+('Textos legais e direitos', 'EM13LP26'),
+('Engajamento em problemas coletivos', 'EM13LP27'),
+('Organização de estudos', 'EM13LP28'),
+('Resumo e resenha acadêmica', 'EM13LP29'),
+('Realização de pesquisas', 'EM13LP30'),
+('Compreensão de textos científicos', 'EM13LP31'),
+('Comparação de informações', 'EM13LP32'),
+('Instrumentos de coleta de dados', 'EM13LP33'),
+('Produção de textos de divulgação', 'EM13LP34'),
+('Apresentações orais com ferramentas', 'EM13LP35'),
+('Interesses do jornalismo', 'EM13LP36'),
+('Projetos editoriais', 'EM13LP37'),
+('Parcialidade e imparcialidade', 'EM13LP38'),
+('Checagem de fatos', 'EM13LP39'),
+('Fenômeno da pós-verdade', 'EM13LP40'),
+('Curadoria e efeito bolha', 'EM13LP41'),
+('Cobertura da mídia e curadoria', 'EM13LP42'),
+('Produção ética em redes sociais', 'EM13LP43'),
+('Publicidade contemporânea', 'EM13LP44'),
+('Produção de gêneros jornalísticos e culturais', 'EM13LP45'),
+('Compartilhamento de leituras literárias', 'EM13LP46'),
+('Participação em eventos culturais', 'EM13LP47'),
+('Literatura brasileira e cânone', 'EM13LP48'),
+('Gêneros literários', 'EM13LP49'),
+('Intertextualidade literária', 'EM13LP50'),
+('Acervo pessoal', 'EM13LP51'),
+('Análise de obras literárias', 'EM13LP52'),
+('Resenhas culturais', 'EM13LP53'),
+('Criação de obras autorais', 'EM13LP54');
+
+-- ============================================================
+-- 1. CRIAÇÃO DA TABELA (CASO NÃO EXISTA)
+-- ============================================================
+CREATE TABLE IF NOT EXISTS topicos_habilidades (
+    topico TEXT NOT NULL,
+    codigo TEXT NOT NULL,
+    PRIMARY KEY (topico, codigo),
+    FOREIGN KEY (codigo) REFERENCES habilidades(codigo)
+);
+
+-- ============================================================
+-- 2. INSERÇÕES ADICIONAIS DE TÓPICOS E SINÔNIMOS 
+-- (Usando OR IGNORE para evitar duplicações)
+-- ============================================================
+
+-- Alfabetização, Fonética e Fonologia (1º ao 5º ano)
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Consciência fonêmica', 'EF01LP07'),
+('Escrita espontânea', 'EF01LP02'),
+('Ditado', 'EF01LP02'),
+('Letra maiúscula e minúscula', 'EF01LP11'),
+('Encontros consonantais', 'EF02LP04'),
+('Substantivo próprio', 'EF02LP01'),
+('Grau do substantivo', 'EF02LP11'),
+('Uso do C e QU', 'EF03LP01'),
+('Uso do G e GU', 'EF03LP01'),
+('Uso do R e RR', 'EF03LP01'),
+('Uso do S e SS', 'EF03LP01'),
+('Encontros vocálicos', 'EF03LP02'),
+('Hiato', 'EF03LP02'),
+('Dígrafos consonantais', 'EF03LP03'),
+('Acentuação de oxítonas', 'EF03LP04'),
+('Acentuação de monossílabos', 'EF03LP04'),
+('Monossílaba, dissílaba, trissílaba, polissílaba', 'EF03LP05'),
+('Oxítonas, paroxítonas e proparoxítonas', 'EF03LP06'),
+('Discurso direto e indireto', 'EF04LP05'),
+('Enumeração', 'EF04LP05'),
+('Modo indicativo', 'EF05LP05');
+
+-- Morfologia e Classes de Palavras (6º ao 9º ano)
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Grau do adjetivo', 'EF06LP04'),
+('Modo imperativo', 'EF06LP04'),
+('Modo subjuntivo', 'EF06LP04'),
+('Tempos e modos verbais', 'EF06LP05'),
+('Conjunções coordenativas', 'EF06LP07'),
+('Orações coordenadas assindéticas', 'EF06LP07'),
+('Verbos regulares e irregulares', 'EF06LP11'),
+('Pronome relativo', 'EF09LP09'),
+('Colocação pronominal', 'EF09LP10'),
+('Próclise, ênclise e mesóclise', 'EF09LP10');
+
+-- Sintaxe Tradicional (7º ao 9º ano)
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Verbo intransitivo', 'EF07LP05'),
+('Verbo transitivo direto', 'EF07LP05'),
+('Verbo transitivo indireto', 'EF07LP05'),
+('Predicação verbal', 'EF07LP05'),
+('Objeto direto', 'EF07LP07'),
+('Objeto indireto', 'EF07LP07'),
+('Predicado verbal', 'EF07LP07'),
+('Predicado nominal', 'EF07LP07'),
+('Locução adjetiva', 'EF07LP08'),
+('Locução adverbial', 'EF07LP09'),
+('Sujeito simples e composto', 'EF08LP06'),
+('Termos essenciais da oração', 'EF08LP06'),
+('Regência verbal', 'EF08LP07'),
+('Adjunto adnominal', 'EF08LP09'),
+('Adjunto adverbial', 'EF08LP10'),
+('Oração principal', 'EF08LP11'),
+('Orações subordinadas adverbiais', 'EF08LP12'),
+('Orações subordinadas substantivas', 'EF08LP12'),
+('Conjunção integrante', 'EF08LP12'),
+('Predicativo do sujeito', 'EF09LP05'),
+('Verbos de estado', 'EF09LP06'),
+('Regência nominal', 'EF09LP07'),
+('Crase', 'EF09LP07'),
+('Pronome relativo QUE', 'EF09LP09'),
+('Uso da vírgula nas orações adjetivas', 'EF09LP09');
+
+-- Estilística, Literatura e Redação (Ensino Fundamental II e Médio)
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Voz passiva sintética', 'EF08LP08'),
+('Voz passiva analítica', 'EF08LP08'),
+('Elipse', 'EF89LP37'),
+('Zeugma', 'EF89LP37'),
+('Pleonasmo', 'EF89LP37'),
+('Silepse', 'EF89LP37'),
+('Anacoluto', 'EF89LP37'),
+('Gêneros digitais', 'EF69LP05'),
+('Linguagem mista', 'EF69LP05'),
+('Dialeto e socioleto', 'EF69LP55'),
+('Norma culta', 'EF69LP56'),
+('Tese e contra-argumentação', 'EM13LP05'),
+('Coerência e coesão', 'EM13LP02'),
+('Impessoalidade', 'EM13LP07'),
+('Ordem direta e indireta', 'EM13LP08'),
+('Gramática normativa', 'EM13LP09'),
+('Literatura africana', 'EM13LP52'),
+('Literatura indígena', 'EM13LP52'),
+('Literatura latino-americana', 'EM13LP52'),
+('Escolas literárias', 'EM13LP48'),
+('Romantismo, Realismo, Modernismo', 'EM13LP48'),
+('Paródia e Pastiche', 'EM13LP50'),
+('Edição de vídeo', 'EM13LP18'),
+('Podcast e Vlog', 'EM13LP17');
+
+-- ============================================================
+-- SINTAXE DO PERÍODO COMPOSTO (As Orações)
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Oração Subordinada Adjetiva', 'EF09LP09'),
+('Oração Subordinada Adjetiva Restritiva', 'EF09LP09'),
+('Oração Subordinada Adjetiva Explicativa', 'EF09LP09'),
+('Oração Subordinada Adverbial', 'EF08LP12'),
+('Orações Adverbiais Causais', 'EF08LP12'),
+('Orações Adverbiais Condicionais', 'EF08LP12'),
+('Orações Adverbiais Concessivas', 'EF08LP12'),
+('Orações Adverbiais Temporais', 'EF08LP12'),
+('Orações Adverbiais Finais', 'EF08LP12'),
+('Orações Adverbiais Proporcionais', 'EF08LP12'),
+('Oração Subordinada Substantiva', 'EF08LP12'),
+('Oração Subordinada Substantiva Objetiva Direta', 'EF08LP12'),
+('Oração Subordinada Substantiva Subjetiva', 'EF08LP12'),
+('Oração Subordinada Substantiva Completiva Nominal', 'EF08LP12'),
+('Orações Reduzidas', 'EF09LP04'),
+('Oração Coordenada', 'EF08LP11'),
+('Oração Coordenada Sindética', 'EF08LP11'),
+('Oração Coordenada Assindética', 'EF08LP11'),
+('Oração Coordenada Aditiva', 'EF07LP11'),
+('Oração Coordenada Adversativa', 'EF07LP11'),
+('Oração Coordenada Conclusiva', 'EF08LP11'),
+('Oração Coordenada Explicativa', 'EF08LP11'),
+('Conjunções Subordinativas', 'EF09LP08'),
+('Conjunções Coordenativas', 'EF09LP08');
+
+-- ============================================================
+-- SINTAXE DO PERÍODO SIMPLES
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Sujeito Simples', 'EF08LP06'),
+('Sujeito Composto', 'EF08LP06'),
+('Sujeito Oculto', 'EF08LP06'),
+('Sujeito Desinencial', 'EF08LP06'),
+('Sujeito Indeterminado', 'EF08LP06'),
+('Oração sem Sujeito', 'EF08LP06'),
+('Sujeito Inexistente', 'EF08LP06'),
+('Predicado Verbal', 'EF07LP07'),
+('Predicado Nominal', 'EF07LP07'),
+('Predicado Verbo-Nominal', 'EF07LP07'),
+('Complemento Nominal', 'EF08LP09'),
+('Aposto', 'EF04LP05'),
+('Vocativo', 'EF04LP05');
+
+-- ============================================================
+-- MORFOLOGIA (Classes de Palavras)
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Classes de palavras', 'EF06LP04'),
+('Substantivo', 'EF06LP04'),
+('Adjetivo', 'EF06LP04'),
+('Artigo', 'EF08LP09'),
+('Numeral', 'EF08LP09'),
+('Pronome Pessoal', 'EF35LP14'),
+('Pronome Possessivo', 'EF35LP14'),
+('Pronome Demonstrativo', 'EF35LP14'),
+('Pronome Indefinido', 'EF69LP20'),
+('Pronome de Tratamento', 'EF15LP11'),
+('Advérbio', 'EF07LP09'),
+('Preposição', 'EF08LP13'),
+('Conjunção', 'EF05LP07'),
+('Interjeição', 'EF69LP19'),
+('Formas Nominais do Verbo', 'EF06LP05'),
+('Infinitivo', 'EF06LP05'),
+('Gerúndio', 'EF06LP05'),
+('Particípio', 'EF06LP05');
+
+-- ============================================================
+-- FIGURAS DE LINGUAGEM E ESTILÍSTICA
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Figuras de Linguagem', 'EF67LP38'),
+('Metáfora', 'EF67LP38'),
+('Comparação', 'EF67LP38'),
+('Símile', 'EF67LP38'),
+('Metonímia', 'EF67LP38'),
+('Personificação', 'EF67LP38'),
+('Prosopopeia', 'EF67LP38'),
+('Hipérbole', 'EF67LP38'),
+('Eufemismo', 'EF89LP37'),
+('Ironia', 'EF89LP37'),
+('Antítese', 'EF89LP37'),
+('Paradoxo', 'EF89LP37'),
+('Catacrese', 'EF67LP38'),
+('Sinestesia', 'EF67LP38'),
+('Perífrase', 'EF67LP38'),
+('Gradação', 'EF89LP37'),
+('Hipérbato', 'EF89LP37'),
+('Inversão Sintática', 'EM13LP08'),
+('Aliteração', 'EF89LP37'),
+('Assonância', 'EF89LP37'),
+('Onomatopeia', 'EF69LP54');
+
+-- ============================================================
+-- TIPOLOGIA TEXTUAL (Diferente de Gênero Textual)
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Tipologia Textual', 'EF67LP37'),
+('Tipo Narrativo', 'EF67LP30'),
+('Narração', 'EF67LP30'),
+('Tipo Descritivo', 'EF67LP37'),
+('Descrição', 'EF67LP37'),
+('Tipo Dissertativo', 'EM13LP05'),
+('Dissertação', 'EM13LP05'),
+('Tipo Argumentativo', 'EM13LP05'),
+('Argumentação', 'EM13LP05'),
+('Tipo Injuntivo', 'EF03LP14'),
+('Injunção', 'EF03LP14'),
+('Texto Prescritivo', 'EF67LP37');
+
+-- ============================================================
+-- topicos2.sql – Complemento de tópicos normativos e escolares
+-- (Fonologia, Morfologia, Sintaxe, Figuras, Tipologias etc.)
+-- ============================================================
+
+-- FONOLOGIA E ORTOGRAFIA
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Encontros consonantais', 'EF03LP02'),
+('Ditongo, tritongo e hiato', 'EF03LP02'),
+('Classificação dos fonemas', 'EF01LP07'),
+('Vogais, semivogais e consoantes', 'EF01LP07'),
+('Nasalização (m, n, til)', 'EF02LP05'),
+('Acentuação gráfica', 'EF05LP03'),
+('Uso dos porquês', 'EF04LP01'),
+('Translineação', 'EF01LP06');
+
+-- MORFOLOGIA – CLASSES DE PALAVRAS E ESTRUTURA
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Radical e desinências', 'EF07LP03'),
+('Vogal temática', 'EF07LP03'),
+('Flexão de gênero', 'EF06LP04'),
+('Flexão de número', 'EF06LP04'),
+('Flexão de grau', 'EF06LP04'),
+('Classificação dos advérbios', 'EF07LP09'),
+('Preposições essenciais e acidentais', 'EF08LP13'),
+('Conjunções integrantes', 'EF08LP12'),
+('Conjunções adverbiais', 'EF08LP12'),
+('Derivação prefixal e sufixal', 'EF07LP03'),
+('Derivação parassintética', 'EF07LP03'),
+('Composição por aglutinação e justaposição', 'EF08LP05'),
+('Palavras primitivas e derivadas', 'EF05LP08');
+
+-- SINTAXE – TERMOS E ORAÇÕES
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Termos acessórios da oração', 'EF08LP06'),
+('Análise sintática', 'EF08LP06'),
+('Sujeito indeterminado', 'EF08LP06'),
+('Índice de indeterminação do sujeito', 'EF08LP06'),
+('Oração subordinada substantiva subjetiva', 'EF08LP12'),
+('Oração subordinada substantiva objetiva direta', 'EF08LP12'),
+('Oração subordinada substantiva objetiva indireta', 'EF08LP12'),
+('Oração subordinada substantiva completiva nominal', 'EF08LP12'),
+('Oração subordinada substantiva predicativa', 'EF08LP12'),
+('Oração subordinada substantiva apositiva', 'EF08LP12'),
+('Orações reduzidas de infinitivo', 'EF09LP04'),
+('Orações reduzidas de gerúndio', 'EF09LP04'),
+('Orações reduzidas de particípio', 'EF09LP04'),
+('Voz reflexiva', 'EF08LP08'),
+('Sujeito paciente', 'EF08LP08'),
+('Objeto direto preposicionado', 'EF08LP07'),
+('Adjunto adverbial de negação', 'EF08LP10'),
+('Adjunto adverbial de tempo', 'EF08LP10'),
+('Adjunto adverbial de modo', 'EF08LP10'),
+('Adjunto adverbial de lugar', 'EF08LP10'),
+('Adjunto adverbial de causa', 'EF08LP10'),
+('Adjunto adverbial de finalidade', 'EF08LP10');
+
+-- FIGURAS DE LINGUAGEM (complemento)
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Polissíndeto', 'EF89LP37'),
+('Assíndeto', 'EF89LP37'),
+('Anáfora (figura de linguagem)', 'EF89LP37'),
+('Antonomásia', 'EF89LP37'),
+('Oxímoro', 'EF89LP37'),
+('Paronomásia', 'EF89LP37'),
+('Hipálage', 'EF89LP37'),
+('Sinédoque', 'EF67LP38'),
+('Apóstrofe (figura)', 'EF89LP37');
+
+-- TIPOLOGIA E GÊNEROS TEXTUAIS
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Tipo expositivo', 'EF04LP19'),
+('Texto expositivo', 'EF04LP19'),
+('Exposição de ideias', 'EF35LP20'),
+('Texto explicativo', 'EM13LP31'),
+('Tipo dialogal', 'EF35LP22'),
+('Diálogo', 'EF35LP22'),
+('Texto conversacional', 'EF35LP10');
+
+-- SEMÂNTICA, COESÃO E COERÊNCIA
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Homônimos e parônimos', 'EF06LP12'),
+('Homonímia', 'EF06LP12'),
+('Paronímia', 'EF06LP12'),
+('Sinonímia, antonímia e homonímia', 'EF06LP12'),
+('Coesão lexical', 'EF35LP08'),
+('Coesão por elipse', 'EF67LP36'),
+('Coerência textual', 'EM13LP02'),
+('Progressão temática e paragrafação', 'EF35LP09'),
+('Marcadores temporais', 'EF02LP17'),
+('Operadores argumentativos', 'EF89LP15');
+
+-- ============================================================
+-- topicos2.sql – PLURAIS E VARIAÇÕES dos tópicos gramaticais
+-- (Execute após o topicos.sql original ou após o BD_completo.sql)
+-- ============================================================
+
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+
+-- =====================
+-- SINTAXE DO PERÍODO COMPOSTO – PLURAIS
+-- =====================
+('Orações Subordinadas Adjetivas', 'EF09LP09'),
+('Orações Subordinadas Adjetivas', 'EF69LP54'),   -- EF69LP54 menciona “orações subordinadas adjetivas etc.”
+('Orações Subordinadas Adjetivas Restritivas', 'EF09LP09'),
+('Orações Subordinadas Adjetivas Explicativas', 'EF09LP09'),
+('Orações Subordinadas Adverbiais', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Causais', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Condicionais', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Concessivas', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Temporais', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Finais', 'EF08LP12'),
+('Orações Subordinadas Adverbiais Proporcionais', 'EF08LP12'),
+('Orações Subordinadas Substantivas', 'EF08LP12'),
+('Orações Subordinadas Substantivas Subjetivas', 'EF08LP12'),
+('Orações Subordinadas Substantivas Objetivas Diretas', 'EF08LP12'),
+('Orações Subordinadas Substantivas Objetivas Indiretas', 'EF08LP12'),
+('Orações Subordinadas Substantivas Completivas Nominais', 'EF08LP12'),
+('Orações Subordinadas Substantivas Predicativas', 'EF08LP12'),
+('Orações Subordinadas Substantivas Apositivas', 'EF08LP12'),
+('Orações Reduzidas', 'EF09LP04'),
+('Orações Reduzidas de Infinitivo', 'EF09LP04'),
+('Orações Reduzidas de Gerúndio', 'EF09LP04'),
+('Orações Reduzidas de Particípio', 'EF09LP04'),
+('Orações Coordenadas', 'EF08LP11'),
+('Orações Coordenadas Sindéticas', 'EF08LP11'),
+('Orações Coordenadas Assindéticas', 'EF08LP11'),
+('Orações Coordenadas Aditivas', 'EF07LP11'),
+('Orações Coordenadas Adversativas', 'EF07LP11'),
+('Orações Coordenadas Conclusivas', 'EF08LP11'),
+('Orações Coordenadas Explicativas', 'EF08LP11'),
+
+-- =====================
+-- SINTAXE DO PERÍODO SIMPLES – PLURAIS
+-- =====================
+('Termos Essenciais da Oração', 'EF08LP06'),
+('Termos Integrantes da Oração', 'EF08LP07'),
+('Termos Acessórios da Oração', 'EF08LP09'),
+('Sujeitos Indeterminados', 'EF08LP06'),
+('Orações sem Sujeito', 'EF08LP06'),
+('Predicados Verbais', 'EF07LP07'),
+('Predicados Nominais', 'EF07LP07'),
+('Predicados Verbo-Nominais', 'EF07LP07'),
+('Objetos Diretos', 'EF07LP07'),
+('Objetos Indiretos', 'EF07LP07'),
+('Complementos Nominais', 'EF08LP09'),
+('Adjuntos Adnominais', 'EF08LP09'),
+('Adjuntos Adverbiais', 'EF08LP10'),
+('Adjuntos Adverbiais de Tempo', 'EF08LP10'),
+('Adjuntos Adverbiais de Modo', 'EF08LP10'),
+('Adjuntos Adverbiais de Lugar', 'EF08LP10'),
+('Adjuntos Adverbiais de Causa', 'EF08LP10'),
+('Adjuntos Adverbiais de Finalidade', 'EF08LP10'),
+('Apostos', 'EF04LP05'),
+('Vocativos', 'EF04LP05'),
+
+-- =====================
+-- MORFOLOGIA – CLASSES E FLEXÕES – PLURAIS
+-- =====================
+('Substantivos', 'EF06LP04'),
+('Adjetivos', 'EF06LP04'),
+('Artigos', 'EF08LP09'),
+('Numerais', 'EF08LP09'),
+('Pronomes', 'EF35LP14'),
+('Pronomes Pessoais', 'EF35LP14'),
+('Pronomes Possessivos', 'EF35LP14'),
+('Pronomes Demonstrativos', 'EF35LP14'),
+('Pronomes Indefinidos', 'EF69LP20'),
+('Pronomes de Tratamento', 'EF15LP11'),
+('Advérbios', 'EF07LP09'),
+('Locuções Adverbiais', 'EF07LP09'),
+('Preposições', 'EF08LP13'),
+('Conjunções', 'EF05LP07'),
+('Conjunções Coordenativas', 'EF09LP08'),
+('Conjunções Subordinativas', 'EF09LP08'),
+('Interjeições', 'EF69LP19'),
+('Verbos', 'EF06LP04'),
+('Verbos de Ligação', 'EF09LP06'),
+('Formas Nominais do Verbo', 'EF06LP05'),
+('Infinitivos', 'EF06LP05'),
+('Gerúndios', 'EF06LP05'),
+('Particípios', 'EF06LP05'),
+('Radicais e Desinências', 'EF07LP03'),
+('Vogais Temáticas', 'EF07LP03'),
+
+-- =====================
+-- FIGURAS DE LINGUAGEM – PLURAIS E VARIAÇÕES
+-- =====================
+('Figuras de Linguagem', 'EF67LP38'),
+('Figuras de Linguagem', 'EF69LP54'),
+('Figuras de Palavras', 'EF67LP38'),
+('Metáforas', 'EF67LP38'),
+('Comparações', 'EF67LP38'),
+('Símiles', 'EF67LP38'),
+('Metonímias', 'EF67LP38'),
+('Personificações', 'EF67LP38'),
+('Prosopopeias', 'EF67LP38'),
+('Hipérboles', 'EF67LP38'),
+('Eufemismos', 'EF89LP37'),
+('Ironias', 'EF89LP37'),
+('Antíteses', 'EF89LP37'),
+('Paradoxos', 'EF89LP37'),
+('Catacreses', 'EF67LP38'),
+('Sinestesias', 'EF67LP38'),
+('Perífrases', 'EF67LP38'),
+('Gradações', 'EF89LP37'),
+('Aliterações', 'EF89LP37'),
+('Assonâncias', 'EF89LP37'),
+('Onomatopeias', 'EF69LP54'),
+('Polissíndetos', 'EF89LP37'),
+('Assíndetos', 'EF89LP37'),
+('Anáforas (figura)', 'EF89LP37'),
+('Oxímoros', 'EF89LP37'),
+
+-- =====================
+-- TIPOLOGIAS TEXTUAIS – PLURAIS
+-- =====================
+('Tipologias Textuais', 'EF67LP37'),
+('Textos Narrativos', 'EF67LP30'),
+('Textos Descritivos', 'EF67LP37'),
+('Textos Dissertativos', 'EM13LP05'),
+('Textos Argumentativos', 'EM13LP05'),
+('Textos Injuntivos', 'EF03LP14'),
+('Textos Prescritivos', 'EF67LP37'),
+('Textos Expositivos', 'EF04LP19'),
+
+-- =====================
+-- SEMÂNTICA E COESÃO – PLURAIS
+-- =====================
+('Homônimos', 'EF06LP12'),
+('Parônimos', 'EF06LP12'),
+('Sinônimos', 'EF01LP15'),
+('Antônimos', 'EF01LP15'),
+('Operadores Argumentativos', 'EF89LP15');
+
+-- ============================================================
+-- SEMÂNTICA, VÍCIOS DE LINGUAGEM E ORTOGRAFIA PRÁTICA
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Ambiguidade', 'EF69LP05'),
+('Duplo Sentido', 'EF69LP05'),
+('Homônimos', 'EF06LP12'),
+('Homonímia', 'EF06LP12'),
+('Parônimos', 'EF06LP12'),
+('Paronímia', 'EF06LP12'),
+('Hiperônimos', 'EF67LP36'),
+('Hipônimos', 'EF67LP36'),
+('Uso dos Porquês', 'EF67LP32'),
+('Mal com U e Mal com L', 'EF67LP32'),
+('Mas e Mais', 'EF07LP11'),
+('Onde e Aonde', 'EF67LP32'),
+('Ortoépia', 'EF69LP55'),
+('Prosódia', 'EF69LP55'),
+('Cacofonia', 'EF69LP56');
+
+-- ============================================================
+-- TEORIA DA COMUNICAÇÃO E FUNÇÕES DA LINGUAGEM (Jakobson)
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Funções da Linguagem', 'EM13LP01'),
+('Função Emotiva', 'EM13LP01'),
+('Função Referencial', 'EM13LP01'),
+('Função Apelativa', 'EM13LP01'),
+('Função Conativa', 'EM13LP01'),
+('Função Poética', 'EM13LP06'),
+('Função Fática', 'EM13LP01'),
+('Função Metalinguística', 'EM13LP01'),
+('Metalinguagem', 'EM13LP01'),
+('Elementos da Comunicação', 'EM13LP01'),
+('Emissor e Receptor', 'EM13LP01');
+
+-- ============================================================
+-- LITERATURA CLÁSSICA (Gêneros Literários Antigos)
+-- ============================================================
+INSERT OR IGNORE INTO topicos_habilidades (topico, codigo) VALUES
+('Gêneros Literários', 'EM13LP49'),
+('Gênero Épico', 'EM13LP49'),
+('Epopeia', 'EM13LP49'),
+('Gênero Lírico', 'EM13LP49'),
+('Gênero Dramático', 'EM13LP49'),
+('Tragédia e Comédia', 'EM13LP49');
